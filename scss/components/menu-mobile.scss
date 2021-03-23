@@ -1,0 +1,81 @@
+/* MOBILE NAV MENU */
+.woodmart-toolbar {
+  height: 60px;
+  overflow: visible;
+  border-radius: 20px 20px 0 0;
+}
+
+.woodmart-cart-number {
+  display: none;
+}
+
+.woodmart-toolbar .woodmart-toolbar-home .wd-tools-icon:before,
+.woodmart-toolbar .woodmart-sticky-sidebar-opener:after,
+.woodmart-toolbar .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before,
+.woodmart-toolbar .my-account-with-icon .wd-tools-icon:before,
+.woodmart-toolbar .woodmart-toolbar-shop .wd-tools-icon:before {
+  content: "";
+  font-family: none;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.woodmart-toolbar .woodmart-toolbar-home .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/home.svg);
+}
+
+.woodmart-toolbar .woodmart-sticky-sidebar-opener:after {
+  position: absolute;
+  bottom: 31px;
+  background-color: black;
+  -webkit-mask: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/filter.svg);
+  animation: filter-icon forwards ease-in 200ms 1000ms;
+}
+
+@keyframes filter-icon {
+  100% {
+    background-color: white;
+  }
+}
+
+.woodmart-toolbar .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-cart.svg);
+}
+
+.woodmart-toolbar .my-account-with-icon .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/user-1.svg);
+}
+
+.woodmart-toolbar .woodmart-toolbar-shop .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-bag.svg);
+}
+
+.woocommerce-ordering-list li {
+  margin: 0;
+}
+
+.woocommerce-ordering-list a,
+.widget_product_categories .product-categories li a {
+  font-size: 14px;
+  padding: 12px 0;
+  display: block;
+}
+
+.woodmart-woocommerce-layered-nav .with-swatch-text .layered-nav-link {
+  padding: 8px 0;
+}
+
+.woodmart-woocommerce-layered-nav .swatches-normal .with-swatch-text .layer-term-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.woodmart-pf-dropdown .filter-swatch, .woodmart-woocommerce-layered-nav .filter-swatch {
+  margin-right: 15px;
+}
+
+.sidebar-container .widget-title {
+  margin-bottom: 20px !important;
+}
