@@ -2,11 +2,13 @@
   "name": "myladyshop",
   "version": "1.0.0",
   "scripts": {
-    "build": "sass --no-source-map ./scss/styles.scss ./dist/styles.css"
+    "build": "sass --no-source-map ./scss/styles.scss ./dist/styles.css",
+    "postcss": "postcss -o ./dist/styles.css ./dist/styles.css"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
     "sass": "^1.32.8"
   },
   "license": "MIT"
