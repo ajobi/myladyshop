@@ -1,6 +1,9 @@
 {
   "name": "myladyshop",
   "version": "1.0.0",
+  "scripts": {
+    "build": "sass ./scss/styles.scss ./dist/styles.css"
+  },
   "dependencies": {
     "sass": "^1.32.8"
   }
