@@ -7,6 +7,7 @@
 @import "components/page-product";
 @import "components/page-shop";
 @import "components/page-landing";
+@import "components/page-404";
 
 /* global */
 
@@ -33,12 +34,6 @@
 .main-page-wrapper {
   padding-top: 70px !important;
   margin-top: 0;
-}
-
-/* 404 */
-.error404 .page-content p,
-.error404 .page-content .woodmart-search-form {
-  display: none;
 }
 
 /* REGISTRATION */
