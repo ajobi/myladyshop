@@ -1,0 +1,7 @@
+@import "../import/variables";
+
+@media (min-width: $screen-size-desktop) {
+  .woocommerce-form-coupon-toggle {
+    padding-top: 40px;
+  }
+}

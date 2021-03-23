@@ -1,5 +1,9 @@
 @import "../import/variables";
 
+.shop-title-wrapper .woodmart-back-btn {
+  display: none;
+}
+
 /* PAGINATION */
 .woocommerce-pagination li .page-numbers {
   border-radius: 2px;

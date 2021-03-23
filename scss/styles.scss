@@ -8,33 +8,10 @@
 @import "components/page-product";
 @import "components/page-shop";
 @import "components/page-landing";
+@import "components/page-checkout";
 @import "components/page-404";
-
-/* global */
-
-.shop-title-wrapper .woodmart-back-btn {
-  display: none;
-}
-
-/* REGISTRATION */
-.mailchimp-newsletter {
-  display: flex;
-  align-items: center;
-}
-
-.mailchimp-newsletter label {
-  margin-bottom: 0;
-}
 
 /* BUTTONS */
 button {
   border-radius: 2px !important;
-}
-
-@media (min-width: $screen-size-desktop) {
-
-  /* CHECKOUT */
-  .woocommerce-form-coupon-toggle {
-    padding-top: 40px;
-  }
 }
