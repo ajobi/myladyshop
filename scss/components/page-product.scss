@@ -73,6 +73,10 @@
   display: none !important;
 }
 
+.summary-inner tr {
+  margin: 20px;
+}
+
 .summary-inner .variations tr {
   flex-direction: column;
 }
@@ -91,10 +95,6 @@
 
 .summary-inner .label {
   padding-bottom: 20px !important;
-}
-
-.summary-inner tr {
-  margin: 20px;
 }
 
 .product-image-summary .cart {

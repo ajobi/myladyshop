@@ -105,6 +105,12 @@
   letter-spacing: 2.4px;
 }
 
+.woodmart-burger-icon a,
+.mobile-search-icon a {
+  color: $color-white;
+  font-size: 12px;
+}
+
 .text-teaser a:hover {
   color: rgba(28, 27, 27, 0.6) !important;
 }
@@ -137,6 +143,11 @@
   color: rgba(28, 27, 27, 0.6) !important;
 }
 
+.newest-collection .vc_column_container>.vc_column-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .newest-collection .vc_column_container:last-child > .vc_column-inner {
   margin-bottom: 0 !important;
 }
@@ -146,12 +157,6 @@
   object-fit: cover;
 }
 
-.woodmart-burger-icon a,
-.mobile-search-icon a {
-  color: $color-white;
-  font-size: 12px;
-}
-
 .woodmart-burger-icon a:hover,
 .mobile-search-icon a:hover {
   color: $color-white;
@@ -159,10 +164,6 @@
 }
 
 /* CUSTOM CLASSES */
-.newest-collection .vc_column_container>.vc_column-inner {
-  padding-left: 0;
-  padding-right: 0;
-}
 
 .text-teaser {
   padding-bottom: 30px;

@@ -66,6 +66,8 @@
   .woodmart-pf-title {
     border: 1px solid rgba(0,0,0,0.1);
     padding-left: 20px;
+    letter-spacing: 0.3px;
+    background-color: $color-white;
   }
 
   .woodmart-pf-title .title-text {
@@ -77,11 +79,6 @@
 
   .form-style-semi-rounded .woodmart-pf-title {
     border-radius: 2px;
-  }
-
-  .woodmart-pf-title {
-    letter-spacing: 0.3px;
-    background-color: $color-white;
   }
 
   .woodmart-pf-dropdown {

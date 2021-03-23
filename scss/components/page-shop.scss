@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.product-grid-item .product-title, .product-title {
+.product-title, .product-grid-item .product-title {
   color: $color-text;
   font-size: 10px !important;
   font-weight: 500;
@@ -81,7 +81,7 @@
 
 @media (min-width: $screen-size-desktop) {
   /* PRODUCT TEASER */
-  .product-grid-item .product-title, .product-title {
+  .product-title, .product-grid-item .product-title {
     font-size: 12px !important;
     letter-spacing: 1.2px;
   }
