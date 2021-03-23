@@ -5,6 +5,7 @@
     "build": "sass --no-source-map ./scss/styles.scss ./dist/styles.css"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.5",
     "postcss": "^8.2.8",
     "sass": "^1.32.8"
   },
