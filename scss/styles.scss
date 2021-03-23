@@ -4,6 +4,7 @@
 @import "components/footer";
 @import "components/filters";
 @import "components/menu-mobile";
+@import "components/page";
 @import "components/page-product";
 @import "components/page-shop";
 @import "components/page-landing";
@@ -11,29 +12,8 @@
 
 /* global */
 
-/* PAGE TITLE */
-.page-title {
-  height: 160px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 .shop-title-wrapper .woodmart-back-btn {
   display: none;
-}
-
-.entry-title {
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.4px;
-}
-
-/* PAGE */
-.main-page-wrapper {
-  padding-top: 70px !important;
-  margin-top: 0;
 }
 
 /* REGISTRATION */
@@ -51,35 +31,7 @@ button {
   border-radius: 2px !important;
 }
 
-/* mobile */
-
-/* PAGE */
-.page-title {
-  margin-bottom: 15px;
-}
-
-/* landscape */
-@media (min-width: $screen-size-landscape) {
-  /* PAGE */
-  .page-title {
-    margin-bottom: 15px;
-  }
-}
-
-/* tablet */
-@media (min-width: $screen-size-tablet) {
-  /* PAGE */
-  .page-title {
-    margin-bottom: 15px;
-  }
-}
-
-/* desktop */
 @media (min-width: $screen-size-desktop) {
-  /* PAGE */
-  .main-page-wrapper {
-    padding-top: 156px !important;
-  }
 
   /* CHECKOUT */
   .woocommerce-form-coupon-toggle {
