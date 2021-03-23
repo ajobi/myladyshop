@@ -1,3 +1,1023 @@
-.test {
-  background: white;
+/* global */
+/* CUSTOM CLASSES */
+.custom-shop-button,
+.social-banner,
+.product-picker,
+.text-teaser {
+  margin-top: 20px;
+}
+
+.custom-shop-button {
+  padding: 15px 45px !important;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 2px;
+  letter-spacing: 2.4px;
+}
+
+.social-banner .vc_column-inner {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.social-banner .wrapper-content-banner {
+  padding: 30px 0;
+}
+
+.social-banner .vc_column_container:last-child {
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-banner {
+  position: relative;
+}
+
+.social-banner::before {
+  display: none;
+  position: absolute;
+  left: 50%;
+  height: 600px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 10;
+}
+
+.social-banner h2 {
+  letter-spacing: 1.6px;
+}
+
+.social-banner p {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+}
+
+.product-picker .woodmart-tabs-header {
+  margin-bottom: 20px !important;
+}
+
+.product-picker .products-tabs-title li {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.product-picker .tab-label:after {
+  height: 1px !important;
+}
+
+.text-teaser img {
+  max-height: 320px;
+  object-fit: cover;
+}
+
+.text-teaser h2 {
+  max-width: 100% !important;
+  letter-spacing: 2.4px;
+  line-height: 150% !important;
+}
+
+.text-teaser .title-subtitle {
+  line-height: 150% !important;
+  font-weight: 200 !important;
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+.text-teaser .title-after_title {
+  line-height: 160%;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+.text-teaser a {
+  background-color: white !important;
+  padding: 15px 45px !important;
+  border: 1px solid rgba(0,0,0, 0.8) !important;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2.4px;
+}
+
+.text-teaser a:hover {
+  color: rgba(28, 27, 27, 0.6) !important;
+}
+
+.newest-collection .title-wrapper {
+  margin-bottom: 0;
+}
+
+.newest-collection h2.title {
+  letter-spacing: 2.1px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-banner .btn.btn-color-white,
+.newest-collection .btn.btn-color-white {
+  color: #1C1B1B;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: 500;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  padding: 15px 45px;
+}
+
+.social-banner .btn.btn-color-white:hover,
+.newest-collection .btn.btn-color-white:hover {
+  box-shadow: none;
+  color: rgba(28, 27, 27, 0.6) !important;
+}
+
+.newest-collection .vc_column_container:last-child > .vc_column-inner {
+  margin-bottom: 0 !important;
+}
+
+.newest-collection img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+/* HEADER 1 */
+.whb-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.woodmart-burger-icon a,
+.mobile-search-icon a {
+  color: white;
+  font-size: 12px;
+}
+
+.woodmart-burger-icon a:hover,
+.mobile-search-icon a:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+/* HEADER 2 */
+.searchform .searchsubmit:before {
+  border-left-color: unset;
+}
+
+/* HEADER 3 */
+.woodmart-shopping-cart .woodmart-cart-subtotal .amount {
+  color: #1C1B1B;
+}
+
+#menu-hlavne-menu li:nth-child(2) a,
+#menu-hlavne-menu-1 li:nth-child(2) a {
+  color: #CC3370;
+  font-weight: 600;
+}
+
+/* PAGE TITLE */
+.page-title {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.shop-title-wrapper .woodmart-back-btn {
+  display: none;
+}
+
+.entry-title {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.4px;
+}
+
+/* PAGE */
+.main-page-wrapper {
+  padding-top: 70px !important;
+  margin-top: 0;
+}
+
+/* PAGINATION */
+.woocommerce-pagination li .page-numbers {
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+/* FILTERS */
+.shop-loop-head,
+.woodmart-buttons {
+  display: none;
+}
+
+.filters-area+.woodmart-active-filters {
+  margin-top: -10px;
+}
+
+/* PRODUCT TEASER */
+.woodmart-hover-tiled .product-wrapper {
+  box-shadow: none;
+  text-align: center;
+}
+
+.product-grid-item .product-title, .product-title {
+  color: #1C1B1B;
+  font-size: 10px !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 160%;
+}
+
+.product-grid-item .woodmart-product-cats a {
+  color: #1C1B1B;
+  font-size: 10px !important;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.price del {
+  color: #B2B2B2;
+}
+
+.woocommerce-Price-amount.amount {
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.wrap-wishlist-button,
+.wrap-quickview-button {
+  display: none;
+}
+
+.woodmart-add-btn,
+.add-to-cart-loop {
+  width: 100%;
+}
+
+.woodmart-hover-base[class*=add-small] .wd-bottom-actions>div:not(:last-child) {
+  border: none;
+}
+
+.woodmart-pf-btn {
+  flex-grow: 1;
+}
+
+.woodmart-pf-btn button {
+  width: 100%;
+}
+
+.product-label {
+  background-color: white !important;
+  color: #1C1B1B !important;
+  font-size: 10px !important;
+  letter-spacing: 1px;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  font-weight: 600 !important;
+}
+
+/* SINGLE PRODUCT */
+.single-product-page {
+  margin-top: 15px !important;
+}
+
+.tabs-layout-tabs .tabs li a {
+  letter-spacing: 2px;
+}
+
+.summary-inner .woocommerce-Price-amount.amount {
+  font-size: 18px;
+}
+
+.wd-attr-selected {
+  display: none !important;
+}
+
+.variations tr {
+  display: flex;
+  align-items: center;
+}
+
+.slider-title::before {
+  display: none;
+}
+
+.variations_form .reset_variations {
+  display: none !important;
+}
+
+.product-image-summary .variations {
+  margin-bottom: 25px !important;
+}
+
+.product-tabs-wrapper {
+  display: none !important;
+}
+
+.related-and-upsells {
+  margin-top: 40px !important;
+  border-top: 1px solid rgba(0,0,0,0.1) !important;
+  padding-top: 30px !important;
+}
+
+.related-products h3 {
+  font-weight: 500 !important;
+}
+
+.product-image-summary div.quantity {
+  display: none !important;
+}
+
+.summary-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-inner .product_title,
+.summary-inner .price,
+.summary-inner .woocommerce-product-details__short-description,
+.summary-inner .woocommerce-variation,
+.summary-inner .woocommerce-variation-add-to-cart {
+  text-align: center;
+}
+
+.summary-inner ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+.summary-inner li::before {
+  display: none !important;
+}
+
+.summary-inner .variations tr {
+  flex-direction: column;
+}
+
+.summary-inner table td {
+  text-align: center;
+}
+
+.summary-inner .variations_form .variations label:after {
+  display: none;
+}
+
+.summary-inner table label {
+  margin-right: 0 !important;
+}
+
+.summary-inner .label {
+  padding-bottom: 20px !important;
+}
+
+.summary-inner tr {
+  margin: 20px;
+}
+
+.product-image-summary .cart {
+  text-align: center;
+}
+
+.summary-inner .single_add_to_cart_button {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 18px 40px;
+  border-radius: 5px !important;
+  margin-top: 40px;
+}
+
+.summary-inner p,
+.summary-inner li {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.swatches-select {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.summary-inner .woodmart-swatch {
+  margin: 7px 15px !important;
+}
+
+.summary-inner .woodmart-swatch.swatch-size- {
+  width: 48px;
+  height: 48px;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-inner .woodmart-swatch.swatch-size-.active-swatch {
+  background-color: #E5E5E5;
+}
+
+.summary-inner .woodmart-swatch.swatch-size-::after {
+  display: none;
+}
+
+.summary-inner div[data-id='pa_farba'] .woodmart-swatch {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+}
+
+.summary-inner div[data-id='pa_farba'] .woodmart-swatch::after {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  border: 4px solid white;
+  opacity: 0;
+}
+
+.summary-inner div[data-id='pa_farba'] .active-swatch::after {
+  opacity: 0.5;
+}
+
+.summary-inner div[data-id='pa_farba'] .woodmart-swatch::before {
+  position: absolute;
+  content: "\f107";
+  font-family: woodmart-font;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.summary-inner div[data-id='pa_farba'] .active-swatch::before {
+  opacity: 1;
+}
+
+p.stock.out-of-stock,
+p.stock.in-stock {
+  text-align: center;
+}
+
+p.stock.in-stock {
+  font-weight: 500;
+}
+
+p.stock.in-stock,
+p.stock.in-stock::before {
+  color: #3B8217 !important;
+}
+
+
+/* FOOTER */
+.footer-sidebar {
+  padding: 50px 0 40px;
+}
+
+.woodmart-prefooter {
+  padding: 0;
+}
+
+#wd-60029cc5f2178 .info-box-title {
+  letter-spacing: 0.3px;
+}
+
+.box-icon-align-left .box-icon-wrapper {
+  margin-top: 3px;
+}
+
+.main-footer .widget-title,
+.main-footer h5 {
+  text-transform: capitalize;
+  color: #1C1B1B;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.main-footer a {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.25px;
+  color: #1C1B1B !important;
+}
+
+.main-footer p {
+  color: #1C1B1B !important;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.footer-column-1 p {
+  font-size: 14px;
+  line-height: 180%;
+}
+
+/* 404 */
+.error404 .page-content p,
+.error404 .page-content .woodmart-search-form {
+  display: none;
+}
+
+/* MOBILE NAV MENU */
+.woodmart-toolbar {
+  height: 60px;
+  overflow: visible;
+  border-radius: 20px 20px 0 0;
+}
+
+.woodmart-cart-number {
+  display: none;
+}
+
+.woodmart-toolbar .woodmart-toolbar-home .wd-tools-icon:before,
+.woodmart-toolbar .woodmart-sticky-sidebar-opener:after,
+.woodmart-toolbar .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before,
+.woodmart-toolbar .my-account-with-icon .wd-tools-icon:before,
+.woodmart-toolbar .woodmart-toolbar-shop .wd-tools-icon:before {
+  content: "";
+  font-family: none;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.woodmart-toolbar .woodmart-toolbar-home .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/home.svg);
+}
+
+.woodmart-toolbar .woodmart-sticky-sidebar-opener:after {
+  position: absolute;
+  bottom: 31px;
+  background-color: black;
+  -webkit-mask: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/filter.svg);
+  animation: filter-icon forwards ease-in 200ms 1000ms;
+}
+
+@keyframes filter-icon {
+  100% {
+    background-color: white;
+  }
+}
+
+.woodmart-toolbar .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-cart.svg);
+}
+
+.woodmart-toolbar .my-account-with-icon .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/user-1.svg);
+}
+
+.woodmart-toolbar .woodmart-toolbar-shop .wd-tools-icon:before {
+  background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-bag.svg);
+}
+
+.shop-sidebar-opener.sticky-toolbar + .woodmart-toolbar-shop {
+  /* 	display: none; */
+}
+
+.woocommerce-ordering-list li {
+  margin: 0;
+}
+
+.woocommerce-ordering-list a,
+.widget_product_categories .product-categories li a {
+  font-size: 14px;
+  padding: 12px 0;
+  display: block;
+}
+
+.woodmart-woocommerce-layered-nav .with-swatch-text .layered-nav-link {
+  padding: 8px 0;
+}
+
+.woodmart-woocommerce-layered-nav .swatches-normal .with-swatch-text .layer-term-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.woodmart-pf-dropdown .filter-swatch, .woodmart-woocommerce-layered-nav .filter-swatch {
+  margin-right: 15px;
+}
+
+.sidebar-container .widget-title {
+  margin-bottom: 20px !important;
+}
+
+/* MOBILE MENU FILTER */
+.woodmart-sticky-sidebar-opener {
+  flex-basis: auto !important;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 0 !important;
+  width: 70px !important;
+  height: 70px !important;
+  animation: animate-filters forwards ease-in 200ms 1000ms;
+  flex-grow: 0 !important;
+}
+
+.woodmart-sticky-sidebar-opener .woodmart-toolbar-label {
+  bottom: 15px;
+}
+
+@keyframes animate-filters {
+  100% {
+    background-color: #CC3370;
+    color: white;
+    transform: translatey(-28px);
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.15);
+  }
+}
+
+
+/* REGISTRATION */
+.mailchimp-newsletter {
+  display: flex;
+  align-items: center;
+}
+
+.mailchimp-newsletter label {
+  margin-bottom: 0;
+}
+
+/* BUTTONS */
+button {
+  border-radius: 2px !important;
+}
+
+/* ADMIN BAR */
+#wpadminbar {
+  display: none;
+}
+
+/* FOOTER FEATURES */
+.woodmart-prefooter .footer-feature {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 60px !important;
+}
+
+.footer-feature .box-icon-wrapper {
+  margin: 0;
+}
+
+.footer-feature .info-icon {
+  height: 24px !important;
+  width: 24px !important;
+  margin-bottom: 22px;
+}
+
+
+/* mobile */
+/* CUSTOM CLASSES */
+.newest-collection .vc_column_container>.vc_column-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-teaser {
+  padding-bottom: 30px;
+}
+
+.text-teaser .wpb_column:last-child .vc_column-inner {
+  padding: 0 !important;
+}
+
+/* PAGE */
+.page-title {
+  margin-bottom: 15px;
+}
+
+/* FILTERS */
+.filters-area.custom-content {
+  display: none !important;
+}
+
+/* PAGINATION */
+.page-numbers.prev,
+.page-numbers.next {
+  display: none !important;
+}
+
+/* SINGLE PRODUCT */
+.woocommerce-product-gallery .thumbnails.thumbnails-ready {
+  display: none;
+}
+
+/* FOOTER */
+.footer-sidebar {
+  padding: 50px 15px 40px;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.main-footer p {
+  padding: 0 30px;
+}
+
+.widget_nav_menu {
+  margin-top: 15px;
+}
+
+/* landscape */
+@media (min-width: 577px) {
+  /* CUSTOM CLASSES */
+  .newest-collection .vc_column_container>.vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-teaser {
+    padding-bottom: 30px;
+  }
+
+  .text-teaser .wpb_column:last-child .vc_column-inner {
+    padding: 0 !important;
+  }
+
+  /* PAGE */
+  .page-title {
+    margin-bottom: 15px;
+  }
+
+  /* FILTERS */
+  .filters-area.custom-content {
+    display: none !important;
+  }
+
+  /* SINGLE PRODUCT */
+  .woocommerce-product-gallery .thumbnails.thumbnails-ready {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footer-sidebar {
+    padding: 50px 15px 40px;
+  }
+
+  .widget_nav_menu {
+    margin-top: 15px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  /* CUSTOM CLASSES */
+  .custom-shop-button,
+  .social-banner,
+  .product-picker,
+  .text-teaser {
+    margin-top: 8vh;
+  }
+
+  .social-banner::before {
+    display: block;
+    content: ' ';
+    top: -200px;
+    transform: rotate(30deg);
+  }
+
+  /* PAGE */
+  .page-title {
+    margin-bottom: 15px;
+  }
+
+  /* FILTERS */
+  .filters-area.custom-content {
+    display: none !important;
+  }
+
+  /* FOOTER */
+  .widget_nav_menu {
+    margin-top: 15px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+  /* CUSTOM CLASSES */
+  .custom-shop-button,
+  .social-banner,
+  .product-picker,
+  .text-teaser {
+    margin-top: 8vh;
+  }
+
+  .social-banner h2 {
+    letter-spacing: 1.8px;
+  }
+
+  .social-banner::before {
+    display: block;
+    content: ' ';
+    top: -200px;
+    transform: rotate(45deg);
+  }
+
+  .product-picker .woodmart-tabs-header {
+    margin-bottom: 30px !important;
+  }
+
+  .product-picker .products-tabs-title li {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .text-teaser img {
+    max-height: 420px;
+    object-fit: cover;
+    padding-left: 100px;
+  }
+
+  .text-teaser h2 {
+    letter-spacing: 3.6px;
+  }
+
+  .text-teaser .title-subtitle {
+    letter-spacing: 5.3px;
+  }
+
+  .text-teaser .title-after_title {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+  }
+
+  .newest-collection h2.title {
+    letter-spacing: 2.7px;
+    height: 140px;
+    margin-bottom: 10px;
+  }
+
+  .newest-collection img {
+    max-height: 450px;
+  }
+
+  /* HEADER 1 */
+
+  /* HEADER 2 */
+  .whb-main-header input[type="text"] {
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #808080;
+    padding-left: 20px;
+    padding-right: 55px;
+  }
+
+  .my-account-with-icon .wd-tools-text {
+    text-transform: capitalize;
+    margin-left: 14px;
+    letter-spacing: 0.3px;
+  }
+
+  .woodmart-header-links a {
+    color: white;
+    font-size: 12px;
+  }
+
+  .woodmart-header-links a:hover {
+    color: white;
+    opacity: 0.6;
+  }
+
+  .search-results-wrapper .woodmart-scroll {
+    top: calc(100% + 10px);
+    left: 0 !important;
+    right: 0 !important;
+    border-radius: 4px;
+  }
+
+  /* HEADER 3 */
+  #menu-hlavne-menu a {
+    padding-right: 30px;
+    letter-spacing: 0.3px
+  }
+
+  #menu-hlavne-menu li:nth-child(n + 8) {
+    display: none;
+  }
+
+  /* PAGE */
+  .main-page-wrapper {
+    padding-top: 156px !important;
+  }
+
+  /* FILTERS */
+  .filters-area.custom-content {
+    border-top: 0 !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+
+  .woodmart-pf-title {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-left: 20px;
+  }
+
+  .woodmart-pf-title .title-text {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #1C1B1B;
+  }
+
+  .form-style-semi-rounded .woodmart-pf-title {
+    border-radius: 2px;
+  }
+
+  .woodmart-pf-title {
+    letter-spacing: 0.3px;
+    background-color: white;
+  }
+
+  .woodmart-pf-dropdown {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.15)
+  }
+
+  .woodmart-pf-dropdown .pf-value {
+    height: 46px;
+  }
+
+  /* PRODUCT TEASER */
+  .product-grid-item .product-title, .product-title {
+    font-size: 12px !important;
+    letter-spacing: 1.2px;
+  }
+
+  .product-grid-item .woodmart-product-cats a {
+    font-size: 12px !important;
+    letter-spacing: 1.2px;
+  }
+
+  .woocommerce-Price-amount.amount {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+
+
+  /* SINGLE PRODUCT */
+  .single-product-page {
+    padding-top: 30px;
+  }
+
+  .summary-inner .single_add_to_cart_button {
+    margin-top: 20px;
+    padding: 14px 30px;
+  }
+
+  /* FOOTER */
+  .footer-column {
+    padding-left: 70px;
+    padding-right: 0;
+  }
+
+  .footer-column:first-child {
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+
+  /* FOOTER FEATURES */
+  .woodmart-prefooter .footer-features-row {
+    padding-top: 30px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .woodmart-prefooter .footer-feature {
+    margin-bottom: 0 !important;
+  }
+
+  /* CHECKOUT */
+  .woocommerce-form-coupon-toggle {
+    padding-top: 40px;
+  }
 }
