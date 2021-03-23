@@ -1,0 +1,96 @@
+@import "../import/variables";
+
+/* MOBILE MENU FILTER */
+.woodmart-sticky-sidebar-opener {
+  flex-basis: auto !important;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 0 !important;
+  width: 70px !important;
+  height: 70px !important;
+  animation: animate-filters forwards ease-in 200ms 1000ms;
+  flex-grow: 0 !important;
+}
+
+.woodmart-sticky-sidebar-opener .woodmart-toolbar-label {
+  bottom: 15px;
+}
+
+@keyframes animate-filters {
+  100% {
+    background-color: #CC3370;
+    color: white;
+    transform: translatey(-28px);
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.15);
+  }
+}
+
+/* FILTERS */
+.filters-area.custom-content {
+  display: none !important;
+}
+
+/* FILTERS */
+.shop-loop-head,
+.woodmart-buttons {
+  display: none;
+}
+
+.filters-area+.woodmart-active-filters {
+  margin-top: -10px;
+}
+
+@media (min-width: $screen-size-landscape) {
+  .filters-area.custom-content {
+    display: none !important;
+  }
+}
+
+@media (min-width: $screen-size-tablet) {
+  /* FILTERS */
+  .filters-area.custom-content {
+    display: none !important;
+  }
+}
+
+@media (min-width: $screen-size-desktop) {
+  /* FILTERS */
+  .filters-area.custom-content {
+    display: block !important;
+    border-top: 0 !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+
+  .woodmart-pf-title {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-left: 20px;
+  }
+
+  .woodmart-pf-title .title-text {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #1C1B1B;
+  }
+
+  .form-style-semi-rounded .woodmart-pf-title {
+    border-radius: 2px;
+  }
+
+  .woodmart-pf-title {
+    letter-spacing: 0.3px;
+    background-color: white;
+  }
+
+  .woodmart-pf-dropdown {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.15)
+  }
+
+  .woodmart-pf-dropdown .pf-value {
+    height: 46px;
+  }
+}
