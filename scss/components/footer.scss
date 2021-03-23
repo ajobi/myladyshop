@@ -19,7 +19,7 @@
 .main-footer .widget-title,
 .main-footer h5 {
   text-transform: capitalize;
-  color: #1C1B1B;
+  color: $color-text;
   font-size: 14px;
   letter-spacing: 0.3px;
   font-weight: 500;
@@ -29,11 +29,11 @@
   font-family: $font-family-montserrat;
   font-size: 12px;
   letter-spacing: 0.25px;
-  color: #1C1B1B !important;
+  color: $color-text !important;
 }
 
 .main-footer p {
-  color: #1C1B1B !important;
+  color: $color-text !important;
   font-weight: 300;
   font-size: 13px;
 }

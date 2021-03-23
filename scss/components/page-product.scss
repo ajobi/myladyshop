@@ -158,7 +158,7 @@
   right: 0;
   bottom: 0;
   border-radius: 15px;
-  border: 4px solid white;
+  border: 4px solid $color-white;
   opacity: 0;
 }
 
@@ -170,7 +170,7 @@
   position: absolute;
   content: "\f107";
   font-family: $font-family-woodmart-font;
-  color: white;
+  color: $color-white;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);

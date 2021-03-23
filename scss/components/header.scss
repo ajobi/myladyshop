@@ -16,12 +16,12 @@
 
 /* HEADER 3 */
 .woodmart-shopping-cart .woodmart-cart-subtotal .amount {
-  color: #1C1B1B;
+  color: $color-text;
 }
 
 #menu-hlavne-menu li:nth-child(2) a,
 #menu-hlavne-menu-1 li:nth-child(2) a {
-  color: #CC3370;
+  color: $color-brand-accent;
   font-weight: 600;
 }
 
@@ -47,12 +47,12 @@
   }
 
   .woodmart-header-links a {
-    color: white;
+    color: $color-white;
     font-size: 12px;
   }
 
   .woodmart-header-links a:hover {
-    color: white;
+    color: $color-white;
     opacity: 0.6;
   }
 

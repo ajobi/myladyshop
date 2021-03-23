@@ -18,8 +18,8 @@
 
 @keyframes animate-filters {
   100% {
-    background-color: #CC3370;
-    color: white;
+    background-color: $color-brand-accent;
+    color: $color-white;
     transform: translatey(-28px);
     box-shadow: 0 2px 10px rgba(0,0,0, 0.15);
   }
@@ -72,7 +72,7 @@
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.5px;
-    color: #1C1B1B;
+    color: $color-text;
   }
 
   .form-style-semi-rounded .woodmart-pf-title {
@@ -81,11 +81,11 @@
 
   .woodmart-pf-title {
     letter-spacing: 0.3px;
-    background-color: white;
+    background-color: $color-white;
   }
 
   .woodmart-pf-dropdown {
-    background-color: white;
+    background-color: $color-white;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 3px rgba(0,0,0,.15)
   }

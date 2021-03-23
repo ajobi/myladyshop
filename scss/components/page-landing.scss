@@ -50,7 +50,7 @@
 }
 
 .social-banner p {
-  color: white;
+  color: $color-white;
   font-size: 14px;
   letter-spacing: 0.3px;
   margin-top: 10px !important;
@@ -96,7 +96,7 @@
 }
 
 .text-teaser a {
-  background-color: white !important;
+  background-color: $color-white !important;
   padding: 15px 45px !important;
   border: 1px solid rgba(0,0,0, 0.8) !important;
   font-family: $font-family-montserrat;
@@ -123,7 +123,7 @@
 
 .social-banner .btn.btn-color-white,
 .newest-collection .btn.btn-color-white {
-  color: #1C1B1B;
+  color: $color-text;
   font-size: 12px;
   letter-spacing: 2.4px;
   font-weight: 500;
@@ -148,13 +148,13 @@
 
 .woodmart-burger-icon a,
 .mobile-search-icon a {
-  color: white;
+  color: $color-white;
   font-size: 12px;
 }
 
 .woodmart-burger-icon a:hover,
 .mobile-search-icon a:hover {
-  color: white;
+  color: $color-white;
   opacity: 0.6;
 }
 
