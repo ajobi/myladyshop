@@ -11,7 +11,7 @@
 
 .custom-shop-button {
   padding: 15px 45px !important;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: $font-family-montserrat;
   font-weight: 500;
   font-size: 12px;
   border-radius: 2px;
@@ -85,7 +85,7 @@
 .text-teaser .title-subtitle {
   line-height: 150% !important;
   font-weight: 200 !important;
-  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+  font-family: $font-family-nunito;
   letter-spacing: 4px;
 }
 
@@ -100,7 +100,7 @@
   background-color: white !important;
   padding: 15px 45px !important;
   border: 1px solid rgba(0,0,0, 0.8) !important;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: $font-family-montserrat;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 2.4px;
@@ -128,7 +128,7 @@
   font-size: 12px;
   letter-spacing: 2.4px;
   font-weight: 500;
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: $font-family-montserrat;
   padding: 15px 45px;
 }
 
@@ -391,7 +391,7 @@
 }
 
 .summary-inner .single_add_to_cart_button {
-  font-family: 'Montserrat';
+  font-family: $font-family-montserrat;
   font-size: 14px;
   font-weight: 500;
   padding: 18px 40px;
@@ -401,7 +401,7 @@
 
 .summary-inner p,
 .summary-inner li {
-  font-family: 'Nunito Sans';
+  font-family: $font-family-nunito;
   font-size: 16px;
   font-weight: 300;
 }
@@ -458,7 +458,7 @@
 .summary-inner div[data-id='pa_farba'] .woodmart-swatch::before {
   position: absolute;
   content: "\f107";
-  font-family: woodmart-font;
+  font-family: $font-family-woodmart-font;
   color: white;
   left: 50%;
   top: 50%;
@@ -514,7 +514,7 @@ p.stock.in-stock::before {
 }
 
 .main-footer a {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: $font-family-montserrat;
   font-size: 12px;
   letter-spacing: 0.25px;
   color: #1C1B1B !important;
