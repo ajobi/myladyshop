@@ -2,7 +2,8 @@
   "name": "myladyshop",
   "version": "1.0.0",
   "scripts": {
-    "build": "sass --no-source-map ./scss/styles.scss ./dist/styles.css",
+    "build": "yarn sass && yarn postcss",
+    "sass": "sass --no-source-map ./scss/styles.scss ./dist/styles.css",
     "postcss": "postcss -o ./dist/styles.css ./dist/styles.css"
   },
   "dependencies": {
