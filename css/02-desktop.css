@@ -1,0 +1,202 @@
+/* CUSTOM CLASSES */
+.custom-shop-button,
+.social-banner,
+.product-picker,
+.text-teaser {
+  margin-top: 8vh;
+}
+
+.social-banner h2 {
+  letter-spacing: 1.8px;
+}
+
+.social-banner::before {
+  display: block;
+  content: ' ';
+  top: -200px;
+  transform: rotate(45deg);
+}
+
+.product-picker .woodmart-tabs-header {
+  margin-bottom: 30px !important;
+}
+
+.product-picker .products-tabs-title li {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.text-teaser img {
+  max-height: 420px;
+  object-fit: cover;
+  padding-left: 100px;
+}
+
+.text-teaser h2 {
+  letter-spacing: 3.6px;
+}
+
+.text-teaser .title-subtitle {
+  letter-spacing: 5.3px;
+}
+
+.text-teaser .title-after_title {
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+
+.newest-collection h2.title {
+  letter-spacing: 2.7px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+.newest-collection img {
+  max-height: 450px;
+}
+
+/* HEADER 1 */
+
+/* HEADER 2 */
+.whb-main-header input[type="text"] {
+  height: 40px;
+  width: 500px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #808080;
+  padding-left: 20px;
+  padding-right: 55px;
+}
+
+.my-account-with-icon .wd-tools-text {
+  text-transform: capitalize;
+  margin-left: 14px;
+  letter-spacing: 0.3px;
+}
+
+.woodmart-header-links a {
+  color: white;
+  font-size: 12px;
+}
+
+.woodmart-header-links a:hover {
+  color: white;
+  opacity: 0.6;
+}
+
+.search-results-wrapper .woodmart-scroll {
+  top: calc(100% + 10px);
+  left: 0 !important;
+  right: 0 !important;
+  border-radius: 4px;
+}
+
+/* HEADER 3 */
+#menu-hlavne-menu a {
+  padding-right: 30px;
+  letter-spacing: 0.3px
+}
+
+#menu-hlavne-menu li:nth-child(n + 8) {
+  display: none;
+}
+
+/* PAGE */
+.main-page-wrapper {
+  padding-top: 156px !important;
+}
+
+/* FILTERS */
+.filters-area.custom-content {
+  border-top: 0 !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.woodmart-pf-title {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding-left: 20px;
+}
+
+.woodmart-pf-title .title-text {
+  font-weight: 500px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #1C1B1B;
+}
+
+.form-style-semi-rounded .woodmart-pf-title {
+  border-radius: 2px;
+}
+
+.woodmart-pf-title {
+  letter-spacing: 0.3px;
+  background-color: white;
+}
+
+.woodmart-pf-dropdown {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.15)
+}
+
+.woodmart-pf-dropdown .pf-value {
+  height: 46px;
+}
+
+/* PRODUCT TEASER */
+.product-grid-item .product-title, .product-title {
+  font-size: 12px !important;
+  letter-spacing: 1.2px;
+}
+
+.product-grid-item .woodmart-product-cats a {
+  font-size: 12px !important;
+  letter-spacing: 1.2px;
+}
+
+.woocommerce-Price-amount.amount {
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+
+/* SINGLE PRODUCT */
+.single-product-page {
+  padding-top: 30px;
+}
+
+.summary-inner .single_add_to_cart_button {
+  margin-top: 20px;
+  padding: 14px 30px;
+}
+
+/* FOOTER */
+.footer-column {
+  padding-left: 70px;
+  padding-right: 0;
+}
+
+.footer-column:first-child {
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+/* FOOTER FEATURES */
+.woodmart-prefooter .footer-features-row {
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+
+.woodmart-prefooter .footer-feature {
+  margin-bottom: 0 !important;
+}
+
+/* CHECKOUT */
+.woocommerce-form-coupon-toggle {
+  padding-top: 40px;
+}
