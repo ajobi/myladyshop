@@ -1,3 +1,5 @@
+@import "import/variables";
+
 /* global */
 /* CUSTOM CLASSES */
 .custom-shop-button,
@@ -743,7 +745,7 @@ button {
 }
 
 /* landscape */
-@media (min-width: 577px) {
+@media (min-width: $screen-size-landscape) {
   /* CUSTOM CLASSES */
   .newest-collection .vc_column_container>.vc_column-inner {
     padding-left: 0;
@@ -784,7 +786,7 @@ button {
 }
 
 /* tablet */
-@media (min-width: 768px) {
+@media (min-width: $screen-size-tablet) {
   /* CUSTOM CLASSES */
   .custom-shop-button,
   .social-banner,
@@ -817,7 +819,7 @@ button {
 }
 
 /* desktop */
-@media (min-width: 1025px) {
+@media (min-width: $screen-size-desktop) {
   /* CUSTOM CLASSES */
   .custom-shop-button,
   .social-banner,
