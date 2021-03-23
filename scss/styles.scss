@@ -4,6 +4,7 @@
 @import "components/filters";
 @import "components/menu-mobile";
 @import "components/page-product";
+@import "components/page-shop";
 
 /* global */
 /* CUSTOM CLASSES */
@@ -189,76 +190,6 @@
   margin-top: 0;
 }
 
-/* PAGINATION */
-.woocommerce-pagination li .page-numbers {
-  border-radius: 2px;
-  padding: 5px 10px;
-}
-
-/* PRODUCT TEASER */
-.woodmart-hover-tiled .product-wrapper {
-  box-shadow: none;
-  text-align: center;
-}
-
-.product-grid-item .product-title, .product-title {
-  color: #1C1B1B;
-  font-size: 10px !important;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 160%;
-}
-
-.product-grid-item .woodmart-product-cats a {
-  color: #1C1B1B;
-  font-size: 10px !important;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-.price del {
-  color: #B2B2B2;
-}
-
-.woocommerce-Price-amount.amount {
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1px;
-}
-
-.wrap-wishlist-button,
-.wrap-quickview-button {
-  display: none;
-}
-
-.woodmart-add-btn,
-.add-to-cart-loop {
-  width: 100%;
-}
-
-.woodmart-hover-base[class*=add-small] .wd-bottom-actions>div:not(:last-child) {
-  border: none;
-}
-
-.woodmart-pf-btn {
-  flex-grow: 1;
-}
-
-.woodmart-pf-btn button {
-  width: 100%;
-}
-
-.product-label {
-  background-color: white !important;
-  color: #1C1B1B !important;
-  font-size: 10px !important;
-  letter-spacing: 1px;
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
-  font-weight: 600 !important;
-}
-
-
 /* 404 */
 .error404 .page-content p,
 .error404 .page-content .woodmart-search-form {
@@ -303,12 +234,6 @@ button {
 /* PAGE */
 .page-title {
   margin-bottom: 15px;
-}
-
-/* PAGINATION */
-.page-numbers.prev,
-.page-numbers.next {
-  display: none !important;
 }
 
 /* landscape */
@@ -418,22 +343,6 @@ button {
   /* PAGE */
   .main-page-wrapper {
     padding-top: 156px !important;
-  }
-
-  /* PRODUCT TEASER */
-  .product-grid-item .product-title, .product-title {
-    font-size: 12px !important;
-    letter-spacing: 1.2px;
-  }
-
-  .product-grid-item .woodmart-product-cats a {
-    font-size: 12px !important;
-    letter-spacing: 1.2px;
-  }
-
-  .woocommerce-Price-amount.amount {
-    font-size: 12px;
-    letter-spacing: 1.2px;
   }
 
   /* CHECKOUT */
