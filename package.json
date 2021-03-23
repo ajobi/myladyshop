@@ -4,7 +4,8 @@
   "scripts": {
     "build": "yarn sass && yarn postcss",
     "sass": "sass --no-source-map ./scss/styles.scss ./dist/styles.css",
-    "postcss": "postcss -o ./dist/styles.css ./dist/styles.css"
+    "postcss": "postcss -o ./dist/styles.css ./dist/styles.css",
+    "lint": "stylelint \"**/*.scss\""
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
@@ -12,7 +13,9 @@
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
     "sass": "^1.32.8",
-    "stylelint": "^13.12.0"
+    "stylelint": "^13.12.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-scss": "^3.19.0"
   },
   "license": "MIT"
 }
