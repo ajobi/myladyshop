@@ -1,4 +1,5 @@
 @import "import/variables";
+@import "components/adminbar";
 @import "components/header";
 @import "components/footer";
 @import "components/filters";
@@ -53,11 +54,6 @@
 /* BUTTONS */
 button {
   border-radius: 2px !important;
-}
-
-/* ADMIN BAR */
-#wpadminbar {
-  display: none;
 }
 
 /* mobile */
