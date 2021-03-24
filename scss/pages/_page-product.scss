@@ -1,4 +1,4 @@
-@import "../utilities/variables";
+@import '../utilities/variables';
 
 .single-product-page {
   margin-top: 15px !important;
@@ -168,7 +168,7 @@ p {
 
       &::before {
         position: absolute;
-        content: "\f107";
+        content: '\f107';
         font-family: $font-family-woodmart;
         color: $color-white;
         left: 50%;

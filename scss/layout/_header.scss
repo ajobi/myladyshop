@@ -1,4 +1,4 @@
-@import "../utilities/variables";
+@import '../utilities/variables';
 
 /* HEADER MOBILE */
 .woodmart-burger-icon a,
@@ -54,7 +54,7 @@
 @media (min-width: $screen-size-desktop) {
   /* HEADER 2 */
   .whb-main-header {
-    input[type="text"] {
+    input[type='text'] {
       height: 40px;
       width: 500px;
       border: none;

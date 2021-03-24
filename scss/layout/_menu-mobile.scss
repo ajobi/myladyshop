@@ -1,4 +1,4 @@
-@import "../utilities/variables";
+@import '../utilities/variables';
 
 $url-icon-home:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/home.svg');
 $url-icon-filter:   url('https://www.myladyshop.sk/wp-content/uploads/2021/01/filter.svg');
@@ -26,7 +26,7 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
 .woodmart-toolbar .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before,
 .woodmart-toolbar .my-account-with-icon .wd-tools-icon:before,
 .woodmart-toolbar .woodmart-toolbar-shop .wd-tools-icon:before {
-  content: "";
+  content: '';
   font-family: unset;
   width: 22px;
   height: 22px;

@@ -1,19 +1,19 @@
-@import "base/typography";
+@import 'base/typography';
 
-@import "layout/adminbar";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/menu-mobile";
+@import 'layout/adminbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/menu-mobile';
 
-@import "pages/page";
-@import "pages/page-product";
-@import "pages/page-shop";
-@import "pages/page-landing";
-@import "pages/page-checkout";
-@import "pages/page-404";
+@import 'pages/page';
+@import 'pages/page-product';
+@import 'pages/page-shop';
+@import 'pages/page-landing';
+@import 'pages/page-checkout';
+@import 'pages/page-404';
 
-@import "components/filters";
-@import "components/teaser-product";
+@import 'components/filters';
+@import 'components/teaser-product';
 
 button {
   border-radius: 2px !important;
