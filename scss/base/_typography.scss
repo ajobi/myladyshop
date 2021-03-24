@@ -10,22 +10,23 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-text;
 }
 
-.nav-link-text {
+.widget-title {
   font-family: $font-family-montserrat;
-  color: $color-text !important;
-  font-weight: 500;
-  font-size: 12px;
+  color: $color-text;
 }
 
-.product-title {
+.product-title,
+.product_title {
   font-family: $font-family-montserrat;
   color: $color-text;
   text-transform: uppercase;
 }
 
-.widget-title {
+.nav-link-text {
   font-family: $font-family-montserrat;
-  color: $color-text;
+  color: $color-text !important;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .entry-title {
