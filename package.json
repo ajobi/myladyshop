@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "yarn sass && yarn postcss",
-    "sass": "sass --no-source-map ./scss/styles.scss ./dist/styles.css",
-    "postcss": "postcss -o ./dist/styles.css ./dist/styles.css",
+    "sass": "sass --no-source-map scss/main.scss ./dist/main.css",
+    "postcss": "postcss -o ./dist/main.css ./dist/main.css",
     "lint": "stylelint \"**/*.scss\""
   },
   "dependencies": {
