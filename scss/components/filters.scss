@@ -1,14 +1,5 @@
 @import "../import/variables";
 
-@keyframes animate-filters {
-  100% {
-    background-color: $color-brand-accent;
-    color: $color-white;
-    transform: translatey(-28px);
-    box-shadow: 0 2px 10px rgba(0,0,0, 0.15);
-  }
-}
-
 .woodmart-sticky-sidebar-opener {
   flex-basis: auto !important;
   background-color: transparent;
