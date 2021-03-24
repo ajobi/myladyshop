@@ -1,4 +1,3 @@
-@import "import/global";
 @import "components/adminbar";
 @import "components/header";
 @import "components/footer";
@@ -11,3 +10,7 @@
 @import "components/page-landing";
 @import "components/page-checkout";
 @import "components/page-404";
+
+button {
+  border-radius: 2px !important;
+}
