@@ -1,5 +1,11 @@
 @import "../import/variables";
 
+$url-icon-home:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/home.svg');
+$url-icon-filter:   url('https://www.myladyshop.sk/wp-content/uploads/2021/01/filter.svg');
+$url-icon-cart:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-cart.svg');
+$url-icon-user:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/user-1.svg');
+$url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-bag.svg');
+
 @keyframes animate-filters {
   100% {
     background-color: $color-brand-accent;
@@ -39,7 +45,7 @@
   .woodmart-toolbar-home {
     .wd-tools-icon {
       &:before {
-        background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/home.svg);
+        background: $url-icon-home;
       }
     }
   }
@@ -49,7 +55,7 @@
       position: absolute;
       bottom: 31px;
       background-color: $color-text;
-      -webkit-mask: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/filter.svg);
+      -webkit-mask: $url-icon-filter;
       animation: filter-icon forwards ease-in 200ms 1000ms;
     }
   }
@@ -58,7 +64,7 @@
     &.woodmart-cart-alt {
       .woodmart-cart-icon {
         &:before {
-          background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-cart.svg);
+          background: $url-icon-cart;
         }
       }
     }
@@ -67,7 +73,7 @@
   .my-account-with-icon {
     .wd-tools-icon {
       &:before {
-        background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/user-1.svg);
+        background: $url-icon-user;
       }
     }
   }
@@ -75,7 +81,7 @@
   .woodmart-toolbar-shop {
     .wd-tools-icon {
       &:before {
-        background: url(https://www.myladyshop.sk/wp-content/uploads/2021/01/shopping-bag.svg);
+        background: $url-icon-shop;
       }
     }
   }
