@@ -46,10 +46,10 @@ p {
     &.in-stock {
       text-align: center;
       font-weight: 500;
-      color: #3B8217 !important;
+      color: $color-success !important;
 
       &::before {
-        color: #3B8217 !important;
+        color: $color-success !important;
       }
     }
   }
