@@ -1,5 +1,11 @@
 @import "../utilities/variables";
 
+.entry-title {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.4px;
+}
+
 .page-title {
   height: 160px;
   display: flex;
@@ -11,13 +17,13 @@
   @media (min-width: $screen-size-desktop) {
     margin-bottom: 0;
   }
-}
 
-.entry-title {
-  color: $color-white !important;
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.4px;
+  .entry-title {
+    color: $color-white !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.4px;
+  }
 }
 
 .main-page-wrapper {
