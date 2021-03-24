@@ -1,12 +1,15 @@
 @import "../import/variables";
 
-/* PAGE TITLE */
 .page-title {
   height: 160px;
   display: flex;
   align-items: center;
   margin-top: 0;
   margin-bottom: 15px;
+
+  @media (min-width: $screen-size-desktop) {
+    margin-bottom: 0;
+  }
 }
 
 .entry-title {
@@ -15,31 +18,11 @@
   letter-spacing: 0.4px;
 }
 
-/* PAGE */
 .main-page-wrapper {
   padding-top: 70px !important;
   margin-top: 0;
-}
 
-/* landscape */
-@media (min-width: $screen-size-landscape) {
-  /* PAGE */
-  .page-title {
-    margin-bottom: 15px;
-  }
-}
-
-/* tablet */
-@media (min-width: $screen-size-tablet) {
-  /* PAGE */
-  .page-title {
-    margin-bottom: 15px;
-  }
-}
-
-@media (min-width: $screen-size-desktop) {
-  /* PAGE */
-  .main-page-wrapper {
+  @media (min-width: $screen-size-desktop) {
     padding-top: 156px !important;
   }
 }
