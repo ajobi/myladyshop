@@ -1,6 +1,5 @@
 @import "../import/variables";
 
-/* CUSTOM CLASSES */
 .custom-shop-button,
 .social-banner,
 .product-picker,
@@ -17,114 +16,145 @@
   letter-spacing: 2.4px;
 }
 
-.social-banner .vc_column-inner {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.social-banner .wrapper-content-banner {
-  padding: 30px 0;
-}
-
-.social-banner .vc_column_container:last-child {
-  position: relative;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
 .social-banner {
   position: relative;
+
+  &::before {
+    display: none;
+    position: absolute;
+    left: 50%;
+    height: 600px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 10;
+  }
+
+  .vc_column-inner {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .wrapper-content-banner {
+    padding: 30px 0;
+  }
+
+  .vc_column_container {
+    &:last-child {
+      position: relative;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  h2 {
+    letter-spacing: 1.6px;
+  }
+
+  p {
+    color: $color-white;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+  }
 }
 
-.social-banner::before {
-  display: none;
-  position: absolute;
-  left: 50%;
-  height: 600px;
-  width: 1px;
-  background-color: rgba(255, 255, 255, 0.2);
-  z-index: 10;
+
+.product-picker {
+  .woodmart-tabs-header {
+    margin-bottom: 20px !important;
+  }
+
+  .products-tabs-title {
+    li {
+      letter-spacing: 1px;
+      font-weight: 500;
+    }
+  }
+
+  .tab-label {
+    &:after {
+      height: 1px !important;
+    }
+  }
 }
 
-.social-banner h2 {
-  letter-spacing: 1.6px;
+.newest-collection {
+  .title-wrapper {
+    margin-bottom: 0;
+  }
+
+  h2.title {
+    letter-spacing: 2.1px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vc_column_container>.vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vc_column_container:last-child > .vc_column-inner {
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    max-height: 450px;
+    object-fit: cover;
+  }
 }
 
-.social-banner p {
-  color: $color-white;
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  margin-top: 10px !important;
-  margin-bottom: 30px !important;
-}
+.text-teaser {
+  padding-bottom: 30px;
 
-.product-picker .woodmart-tabs-header {
-  margin-bottom: 20px !important;
-}
+  .wpb_column {
+    &:last-child {
+      .vc_column-inner {
+        padding: 0 !important;
+      }
+    }
+  }
 
-.product-picker .products-tabs-title li {
-  letter-spacing: 1px;
-  font-weight: 500;
-}
+  img {
+    max-height: 320px;
+    object-fit: cover;
+  }
 
-.product-picker .tab-label:after {
-  height: 1px !important;
-}
+  h2 {
+    max-width: 100% !important;
+    letter-spacing: 2.4px;
+    line-height: 150% !important;
+  }
 
-.text-teaser img {
-  max-height: 320px;
-  object-fit: cover;
-}
+  .title-subtitle {
+    line-height: 150% !important;
+    font-weight: 200 !important;
+    font-family: $font-family-nunito;
+    letter-spacing: 4px;
+  }
 
-.text-teaser h2 {
-  max-width: 100% !important;
-  letter-spacing: 2.4px;
-  line-height: 150% !important;
-}
+  .title-after_title {
+    line-height: 160%;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
 
-.text-teaser .title-subtitle {
-  line-height: 150% !important;
-  font-weight: 200 !important;
-  font-family: $font-family-nunito;
-  letter-spacing: 4px;
-}
+  a {
+    background-color: $color-white !important;
+    padding: 15px 45px !important;
+    border: 1px solid rgba(0,0,0, 0.8) !important;
+    font-family: $font-family-montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
 
-.text-teaser .title-after_title {
-  line-height: 160%;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 0.3px;
-}
-
-.text-teaser a {
-  background-color: $color-white !important;
-  padding: 15px 45px !important;
-  border: 1px solid rgba(0,0,0, 0.8) !important;
-  font-family: $font-family-montserrat;
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 2.4px;
-}
-
-.woodmart-burger-icon a,
-.mobile-search-icon a {
-  color: $color-white;
-  font-size: 12px;
-}
-
-.text-teaser a:hover {
-  color: rgba(28, 27, 27, 0.6) !important;
-}
-
-.newest-collection .title-wrapper {
-  margin-bottom: 0;
-}
-
-.newest-collection h2.title {
-  letter-spacing: 2.1px;
-  height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    &:hover {
+      color: rgba(28, 27, 27, 0.6) !important;
+    }
+  }
 }
 
 .social-banner .btn.btn-color-white,
@@ -135,62 +165,35 @@
   font-weight: 500;
   font-family: $font-family-montserrat;
   padding: 15px 45px;
-}
 
-.social-banner .btn.btn-color-white:hover,
-.newest-collection .btn.btn-color-white:hover {
-  box-shadow: none;
-  color: rgba(28, 27, 27, 0.6) !important;
-}
-
-.newest-collection .vc_column_container>.vc_column-inner {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.newest-collection .vc_column_container:last-child > .vc_column-inner {
-  margin-bottom: 0 !important;
-}
-
-.newest-collection img {
-  max-height: 450px;
-  object-fit: cover;
-}
-
-.woodmart-burger-icon a:hover,
-.mobile-search-icon a:hover {
-  color: $color-white;
-  opacity: 0.6;
-}
-
-/* CUSTOM CLASSES */
-
-.text-teaser {
-  padding-bottom: 30px;
-}
-
-.text-teaser .wpb_column:last-child .vc_column-inner {
-  padding: 0 !important;
+  &:hover {
+    box-shadow: none;
+    color: rgba(28, 27, 27, 0.6) !important;
+  }
 }
 
 @media (min-width: $screen-size-landscape) {
-  /* CUSTOM CLASSES */
-  .newest-collection .vc_column_container>.vc_column-inner {
-    padding-left: 0;
-    padding-right: 0;
+  .newest-collection {
+    .vc_column_container>.vc_column-inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .text-teaser {
     padding-bottom: 30px;
-  }
 
-  .text-teaser .wpb_column:last-child .vc_column-inner {
-    padding: 0 !important;
+    .wpb_column {
+      &:last-child {
+        .vc_column-inner {
+          padding: 0 !important;
+        }
+      }
+    }
   }
 }
 
 @media (min-width: $screen-size-tablet) {
-  /* CUSTOM CLASSES */
   .custom-shop-button,
   .social-banner,
   .product-picker,
@@ -205,15 +208,15 @@
     transform: rotate(30deg);
   }
 
-  /* CUSTOM CLASSES */
-  .newest-collection .vc_column_container>.vc_column-inner {
-    margin-left: 15px !important;
-    margin-right: 15px !important;
+  .newest-collection {
+    .vc_column_container>.vc_column-inner {
+      margin-left: 15px !important;
+      margin-right: 15px !important;
+    }
   }
 }
 
 @media (min-width: $screen-size-desktop) {
-  /* CUSTOM CLASSES */
   .custom-shop-button,
   .social-banner,
   .product-picker,
@@ -221,8 +224,10 @@
     margin-top: 8vh;
   }
 
-  .social-banner h2 {
-    letter-spacing: 1.8px;
+  .social-banner {
+    h2 {
+      letter-spacing: 1.8px;
+    }
   }
 
   .social-banner::before {
@@ -232,41 +237,49 @@
     transform: rotate(45deg);
   }
 
-  .product-picker .woodmart-tabs-header {
-    margin-bottom: 30px !important;
+  .product-picker {
+    .woodmart-tabs-header {
+      margin-bottom: 30px !important;
+    }
+
+    .products-tabs-title {
+      li {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
   }
 
-  .product-picker .products-tabs-title li {
-    padding-left: 25px;
-    padding-right: 25px;
+  .text-teaser {
+    img {
+      max-height: 420px;
+      object-fit: cover;
+      padding-left: 100px;
+    }
+
+    h2 {
+      letter-spacing: 3.6px;
+    }
+
+    .title-subtitle {
+      letter-spacing: 5.3px;
+    }
+
+    .title-after_title {
+      font-size: 18px;
+      letter-spacing: 0.36px;
+    }
   }
 
-  .text-teaser img {
-    max-height: 420px;
-    object-fit: cover;
-    padding-left: 100px;
-  }
+  .newest-collection {
+    h2.title {
+      letter-spacing: 2.7px;
+      height: 140px;
+      margin-bottom: 10px;
+    }
 
-  .text-teaser h2 {
-    letter-spacing: 3.6px;
-  }
-
-  .text-teaser .title-subtitle {
-    letter-spacing: 5.3px;
-  }
-
-  .text-teaser .title-after_title {
-    font-size: 18px;
-    letter-spacing: 0.36px;
-  }
-
-  .newest-collection h2.title {
-    letter-spacing: 2.7px;
-    height: 140px;
-    margin-bottom: 10px;
-  }
-
-  .newest-collection img {
-    max-height: 450px;
+    img {
+      max-height: 450px;
+    }
   }
 }

@@ -1,5 +1,17 @@
 @import "../import/variables";
 
+/* HEADER MOBILE */
+.woodmart-burger-icon a,
+.mobile-search-icon a {
+  color: $color-white;
+  font-size: 12px;
+
+  &:hover {
+    color: $color-white;
+    opacity: 0.6;
+  }
+}
+
 /* HEADER 1 */
 .whb-header {
   position: fixed;
