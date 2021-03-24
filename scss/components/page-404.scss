@@ -1,5 +1,11 @@
-/* 404 */
-.error404 .page-content p,
-.error404 .page-content .woodmart-search-form {
-  display: none;
+.error404 {
+  .page-content {
+    p {
+      display: none;
+    }
+
+    .woodmart-search-form {
+      display: none;
+    }
+  }
 }
