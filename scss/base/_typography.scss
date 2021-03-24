@@ -5,6 +5,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-text;
 }
 
+.product-title {
+  font-family: $font-family-montserrat;
+  color: $color-text;
+  text-transform: uppercase;
+}
+
 .entry-title {
   font-size: 18px !important;
   font-weight: 500 !important;
