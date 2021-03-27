@@ -1,12 +1,20 @@
 @import '../utilities/variables';
 
-// components above our custom filters (breadcrumbs, sorting...)
+// mobile filters
+.area-sidebar-shop {
+  .widget-title {
+    font-family: $font-family-montserrat;
+    color: $color-text;
+  }
+}
+
+// above desktop filters (breadcrumbs, sorting...)
 .shop-loop-head,
 .woodmart-buttons {
   display: none;
 }
 
-// custom woodmart filters
+// desktop filters
 .filters-area {
   display: none;
 
