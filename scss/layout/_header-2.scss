@@ -3,6 +3,10 @@
 .whb-general-header {
   background-color: $color-brand-primary !important;
 
+  &-inner {
+    height: 70px !important;
+  }
+
   .woodmart-logo {
     img {
       max-width: 160px !important;

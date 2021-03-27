@@ -3,6 +3,10 @@
 .whb-header-bottom {
   border-bottom: 1px solid $color-background;
 
+  &-inner {
+    height: 85px !important;
+  }
+
   .nav-link-text {
     font-family: $font-family-montserrat;
     color: $color-text;
