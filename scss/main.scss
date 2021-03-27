@@ -1,5 +1,4 @@
 @import 'base/typography';
-@import 'base/colors';
 
 @import 'layout/adminbar';
 @import 'layout/header';
@@ -24,4 +23,10 @@ button, .button {
 
 .thumbnails.slick-slider>button:before {
   color: $color-brand-primary;
+}
+
+.woocommerce-info {
+  a {
+    color: $color-brand-primary;
+  }
 }

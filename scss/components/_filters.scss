@@ -15,6 +15,20 @@
   }
 }
 
+.widget_price_filter {
+  .ui-slider {
+    .ui-slider-range {
+      background-color: $color-brand-primary;
+    }
+
+    .ui-slider-handle {
+      &:after {
+        background-color: $color-brand-primary;
+      }
+    }
+  }
+}
+
 .filters-area {
   &.custom-content {
     display: none !important;
