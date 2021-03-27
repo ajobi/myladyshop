@@ -22,6 +22,10 @@
 }
 
 /* HEADER 2 */
+.whb-general-header {
+  background-color: $color-brand-primary !important;
+}
+
 .searchform {
   .searchsubmit {
     &:before {
@@ -31,6 +35,10 @@
 }
 
 /* HEADER 3 */
+.whb-header-bottom {
+  border-bottom: 1px solid $color-background;
+}
+
 .woodmart-shopping-cart {
   .woodmart-cart-subtotal {
     .amount {
