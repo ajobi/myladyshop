@@ -79,15 +79,15 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
   }
 
   .woodmart-sticky-sidebar-opener {
-    flex-basis: auto !important;
+    flex-basis: auto;
+    flex-grow: 0;
     background-color: transparent;
-    border-radius: 100%;
-    padding: 0 !important;
-    width: 70px !important;
-    height: 70px !important;
-    animation: animation-filters forwards ease-in 200ms 1000ms;
-    flex-grow: 0 !important;
     color: $color-text;
+    border-radius: 100%;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    animation: animation-filters forwards ease-in 200ms 1000ms;
 
     &:after {
       position: absolute;
