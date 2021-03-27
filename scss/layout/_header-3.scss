@@ -4,13 +4,19 @@
   border-bottom: 1px solid $color-background;
 
   &-inner {
-    height: 85px !important;
+    height: 85px;
   }
 
   .woodmart-shopping-cart {
-    .woodmart-cart-subtotal {
+    a {
+      color: $color-text;
+
       .amount {
         color: $color-text;
+      }
+
+      .woodmart-cart-totals {
+        margin-top: 3px;
       }
     }
   }
