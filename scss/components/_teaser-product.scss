@@ -1,6 +1,16 @@
 @import '../utilities/variables';
 
 .product-grid-item {
+  .product-label {
+    background-color: $color-white;
+    color: $color-text;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 600;
+  }
+
   .product-title {
     color: $color-text;
     font-size: 10px !important;
@@ -29,9 +39,7 @@
       }
     }
   }
-}
 
-.price {
   del {
     color: $color-text-light;
   }
@@ -54,14 +62,4 @@
   .wd-bottom-actions>div:not(:last-child) {
     border: none;
   }
-}
-
-.product-label {
-  background-color: $color-white !important;
-  color: $color-text !important;
-  font-size: 10px !important;
-  letter-spacing: 1px;
-  padding-top: 6px !important;
-  padding-bottom: 6px !important;
-  font-weight: 600 !important;
 }
