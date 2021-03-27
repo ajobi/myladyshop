@@ -9,17 +9,16 @@
 
   .woodmart-logo {
     img {
-      max-width: 160px !important;
+      max-width: 160px;
     }
   }
 
-  a {
+  .mobile-search-icon,
+  .mobile-nav-icon {
     color: $color-white;
-    font-size: 12px;
 
     &:hover {
-      color: $color-white;
-      opacity: 0.6;
+      opacity: 0.8;
     }
   }
 
