@@ -22,23 +22,20 @@
     }
   }
 
-  @media (min-width: $screen-size-desktop) {
-    .my-account-with-icon {
+  .my-account-with-username {
+    @media (min-width: $screen-size-desktop) {
+      .wd-tools-icon,
       .wd-tools-text {
+        color: $color-white;
         text-transform: capitalize;
         margin-left: 14px;
         letter-spacing: 0.3px;
       }
-    }
 
-    .woodmart-header-links {
-      a {
-        color: $color-white;
-        font-size: 12px;
-
-        &:hover {
-          color: $color-white;
-          opacity: 0.6;
+      &:hover {
+        .wd-tools-icon,
+        .wd-tools-text {
+          opacity: 0.8;
         }
       }
     }
