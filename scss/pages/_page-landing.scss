@@ -5,6 +5,10 @@
 .product-picker,
 .text-teaser {
   margin-top: 20px;
+
+  @media (min-width: $screen-size-tablet) {
+    margin-top: 8vh;
+  }
 }
 
 .custom-shop-button {
@@ -17,49 +21,6 @@
   border-radius: 2px;
   letter-spacing: 2.4px;
 }
-
-.social-banner {
-  position: relative;
-
-  &::before {
-    display: none;
-    position: absolute;
-    left: 50%;
-    height: 600px;
-    width: 1px;
-    background-color: rgba(255, 255, 255, 0.2);
-    z-index: 10;
-  }
-
-  .vc_column-inner {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  .wrapper-content-banner {
-    padding: 30px 0;
-  }
-
-  .vc_column_container {
-    &:last-child {
-      position: relative;
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-    }
-  }
-
-  h2 {
-    letter-spacing: 1.6px;
-  }
-
-  p {
-    color: $color-white;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    margin-top: 10px !important;
-    margin-bottom: 30px !important;
-  }
-}
-
 
 .product-picker {
   .woodmart-tabs-header {
@@ -197,20 +158,6 @@
 }
 
 @media (min-width: $screen-size-tablet) {
-  .custom-shop-button,
-  .social-banner,
-  .product-picker,
-  .text-teaser {
-    margin-top: 8vh;
-  }
-
-  .social-banner::before {
-    display: block;
-    content: ' ';
-    top: -200px;
-    transform: rotate(30deg);
-  }
-
   .newest-collection {
     .vc_column_container>.vc_column-inner {
       margin-left: 15px !important;
@@ -220,26 +167,6 @@
 }
 
 @media (min-width: $screen-size-desktop) {
-  .custom-shop-button,
-  .social-banner,
-  .product-picker,
-  .text-teaser {
-    margin-top: 8vh;
-  }
-
-  .social-banner {
-    h2 {
-      letter-spacing: 1.8px;
-    }
-  }
-
-  .social-banner::before {
-    display: block;
-    content: ' ';
-    top: -200px;
-    transform: rotate(45deg);
-  }
-
   .product-picker {
     .woodmart-tabs-header {
       margin-bottom: 30px !important;
