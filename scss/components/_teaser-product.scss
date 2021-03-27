@@ -1,24 +1,5 @@
 @import '../utilities/variables';
 
-.woodmart-hover-tiled {
-  .product-wrapper {
-    box-shadow: none;
-    text-align: center;
-  }
-}
-
-.product-title {
-  font-size: 10px !important;
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 160%;
-
-  @media (min-width: $screen-size-desktop) {
-    font-size: 12px !important;
-    letter-spacing: 1.2px;
-  }
-}
-
 .product-grid-item {
   .product-title {
     color: $color-text;
@@ -26,6 +7,8 @@
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 160%;
+    font-family: $font-family-montserrat;
+    text-transform: uppercase;
 
     @media (min-width: $screen-size-desktop) {
       font-size: 12px !important;
@@ -45,6 +28,13 @@
         letter-spacing: 1.2px;
       }
     }
+  }
+}
+
+.woodmart-hover-tiled {
+  .product-wrapper {
+    box-shadow: none;
+    text-align: center;
   }
 }
 
