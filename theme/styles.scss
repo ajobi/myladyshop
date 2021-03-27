@@ -1,5 +1,48 @@
 /* Version: 5.3.6 */
 
+/*
+  These features were enabled in Woodmart's css file generator:
+  EXTRA FEATURES:
+    Features:
+      - off-canvas sidebar
+      - nanoscroller
+      - image lazy loading
+      - bottom toolbar
+      - cookies notice
+      - search form
+  WOOCOMMERCE STYLES:
+    Modules:
+      - rectangular product labels
+    Plugins:
+      - stripe
+    Product page styles:
+      - variable product
+      - product design centered
+      - product left thumbnails
+      - product swatches
+    Shop page styles:
+      - product loader
+      - active filters
+    Pages:
+      - Cart
+      - Checkout
+      - Login & Register
+      - My account
+      - Order page
+    Widgets:
+      - Layered nav widget
+      - Slider price filter widget
+    Modules:
+      - Woocommerce notices
+  ELEMENTS:
+    Base elements:
+      - Promo banner
+      - Information box
+    Woocommerce elements:
+      - Product tabs
+      - Product filters
+ */
+
 html,
 body,
 div,
@@ -4468,16 +4511,16 @@ input[type=date]::-webkit-clear-button {
   filter: grayscale(100%)
 }
 
-html:not(.browser-Firefox) input[type=date] {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='rgba(0, 0, 0, 0.3)' data-name='calendar' width='24' height='24' viewBox='0 0 236 220'><path d='M211.6 24H184V10a10 10 0 0 0-20 0v14H72V10a10 10 0 0 0-20 0v14H24.4C10.95 24 0 35.5 0 49.64v144.72C0 208.5 10.95 220 24.4 220h187.2c13.45 0 24.4-11.5 24.4-25.64V49.64C236 35.5 225.05 24 211.6 24zM24.4 44H52v10a10 10 0 0 0 20 0V44h92v10a10 10 0 0 0 20 0V44h27.6c2.38 0 4.4 2.59 4.4 5.64V80H20V49.64c0-3.05 2-5.64 4.4-5.64zm187.2 156H24.4c-2.38 0-4.4-2.59-4.4-5.64V100h196v94.36c0 3.05-2 5.64-4.4 5.64z'/></svg>");
-  background-position: right 15px top 50%;
-  background-size: auto 15px;
-  background-repeat: no-repeat
-}
+//html:not(.browser-Firefox) input[type=date] {
+//  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='rgba(0, 0, 0, 0.3)' data-name='calendar' width='24' height='24' viewBox='0 0 236 220'><path d='M211.6 24H184V10a10 10 0 0 0-20 0v14H72V10a10 10 0 0 0-20 0v14H24.4C10.95 24 0 35.5 0 49.64v144.72C0 208.5 10.95 220 24.4 220h187.2c13.45 0 24.4-11.5 24.4-25.64V49.64C236 35.5 225.05 24 211.6 24zM24.4 44H52v10a10 10 0 0 0 20 0V44h92v10a10 10 0 0 0 20 0V44h27.6c2.38 0 4.4 2.59 4.4 5.64V80H20V49.64c0-3.05 2-5.64 4.4-5.64zm187.2 156H24.4c-2.38 0-4.4-2.59-4.4-5.64V100h196v94.36c0 3.05-2 5.64-4.4 5.64z'/></svg>");
+//  background-position: right 15px top 50%;
+//  background-size: auto 15px;
+//  background-repeat: no-repeat
+//}
 
-html:not(.browser-Firefox) .color-scheme-light input[type=date] {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' id='calendar' fill='rgba(255, 255, 255, 0.6)' data-name='calendar' width='24' height='24' viewBox='0 0 236 220'>  <title>cal</title>  <path d='M211.6,24H184V10a10,10,0,0,0-20,0V24H72V10a10,10,0,0,0-20,0V24H24.4C10.95,24,0,35.5,0,49.64V194.36C0,208.5,10.95,220,24.4,220H211.6c13.45,0,24.4-11.5,24.4-25.64V49.64C236,35.5,225.05,24,211.6,24ZM24.4,44H52V54a10,10,0,0,0,20,0V44h92V54a10,10,0,0,0,20,0V44h27.6c2.38,0,4.4,2.59,4.4,5.64V80H20V49.64C20,46.59,22,44,24.4,44ZM211.6,200H24.4c-2.38,0-4.4-2.59-4.4-5.64V100H216v94.36C216,197.41,214,200,211.6,200Z'/></svg>")
-}
+//html:not(.browser-Firefox) .color-scheme-light input[type=date] {
+//  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' id='calendar' fill='rgba(255, 255, 255, 0.6)' data-name='calendar' width='24' height='24' viewBox='0 0 236 220'>  <title>cal</title>  <path d='M211.6,24H184V10a10,10,0,0,0-20,0V24H72V10a10,10,0,0,0-20,0V24H24.4C10.95,24,0,35.5,0,49.64V194.36C0,208.5,10.95,220,24.4,220H211.6c13.45,0,24.4-11.5,24.4-25.64V49.64C236,35.5,225.05,24,211.6,24ZM24.4,44H52V54a10,10,0,0,0,20,0V44h92V54a10,10,0,0,0,20,0V44h27.6c2.38,0,4.4,2.59,4.4,5.64V80H20V49.64C20,46.59,22,44,24.4,44ZM211.6,200H24.4c-2.38,0-4.4-2.59-4.4-5.64V100H216v94.36C216,197.41,214,200,211.6,200Z'/></svg>")
+//}
 
 textarea {
   overflow: auto;
