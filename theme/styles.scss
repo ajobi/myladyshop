@@ -121,7 +121,7 @@ q:before,
 q:after,
 blockquote:before,
 blockquote:after {
-  content: "";
+  content: '';
   content: none
 }
 
@@ -183,24 +183,24 @@ i.fa.fa-envelope-o,
 i.fa.fa-copyright,
 i.fa.fa-location-arrow,
 i.fa.fa-mobile {
-  font-family: "woodmart-font";
+  font-family: 'woodmart-font';
   font-weight: 400
 }
 
 i.fa.fa-envelope-o:before {
-  content: "\f132"
+  content: '\f132'
 }
 
 i.fa.fa-copyright:before {
-  content: "\f173"
+  content: '\f173'
 }
 
 i.fa.fa-location-arrow:before {
-  content: "\f160"
+  content: '\f160'
 }
 
 i.fa.fa-mobile:before {
-  content: "\f159"
+  content: '\f159'
 }
 
 html {
@@ -1399,14 +1399,14 @@ i.fa:before {
   display: inline-block;
   font-size: 16px;
   line-height: 50px;
-  content: "\f118";
-  font-family: "woodmart-font"
+  content: '\f118';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-sticky-sidebar-opener:not(.shop-sidebar-opener):after {
   font-size: 20px;
-  content: "\f109";
-  font-family: "woodmart-font"
+  content: '\f109';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-sticky-sidebar-opener:hover,
@@ -1709,7 +1709,7 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
   -webkit-perspective: 800px
 }
 
-.woodmart-logo img[src$=".svg"] {
+.woodmart-logo img[src$='.svg'] {
   height: 100%
 }
 
@@ -1780,7 +1780,7 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 
 .menu-opener .woodmart-burger::before,
 .menu-opener .woodmart-burger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0
 }
@@ -1810,8 +1810,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 }
 
 .menu-opener .arrow-opener:after {
-  content: "\f129";
-  font-family: "woodmart-font"
+  content: '\f129';
+  font-family: 'woodmart-font'
 }
 
 .menu-opener.color-scheme-light {
@@ -1956,8 +1956,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 .search-button .search-button-icon:before {
   font-size: 19px;
   transition: opacity .3s ease;
-  content: "\f130";
-  font-family: "woodmart-font"
+  content: '\f130';
+  font-family: 'woodmart-font'
 }
 
 .search-button .search-button-icon:after {
@@ -1973,8 +1973,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
   line-height: 15px;
   opacity: 0;
   transition: none;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-search-opened .search-button .search-button-icon:after {
@@ -2051,7 +2051,7 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 
 .woodmart-burger-icon .woodmart-burger::before,
 .woodmart-burger-icon .woodmart-burger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0
 }
@@ -2079,7 +2079,7 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 }
 
 .whb-divider-element:before {
-  content: "";
+  content: '';
   display: block;
   height: 18px;
   border-right-width: 1px;
@@ -2176,8 +2176,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 
 .woodmart-shopping-cart .woodmart-cart-icon:before {
   font-size: 20px;
-  content: "\f105";
-  font-family: "woodmart-font"
+  content: '\f105';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-shopping-cart .woodmart-cart-subtotal .amount {
@@ -2191,8 +2191,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 }
 
 .woodmart-shopping-cart.woodmart-cart-alt .woodmart-cart-icon:before {
-  content: "\f126";
-  font-family: "woodmart-font"
+  content: '\f126';
+  font-family: 'woodmart-font'
 }
 
 .whb-color-light .woodmart-shopping-cart .woodmart-cart-subtotal .amount {
@@ -2411,8 +2411,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
   font-weight: 400;
   font-size: 86px;
   line-height: 86px;
-  content: "\f147";
-  font-family: "woodmart-font"
+  content: '\f147';
+  font-family: 'woodmart-font'
 }
 
 .cart-widget-side .widget_shopping_cart .total {
@@ -2450,8 +2450,8 @@ body:not(.single-product) .whb-overcontent:not(.whb-sticked) .whb-row:not(.whb-w
 
 .my-account-with-icon .wd-tools-icon:before {
   font-size: 19px;
-  content: "\f124";
-  font-family: "woodmart-font"
+  content: '\f124';
+  font-family: 'woodmart-font'
 }
 
 .my-account-with-icon:not(.my-account-with-username) .wd-tools-text {
@@ -2558,8 +2558,8 @@ div.woodmart-header-links .menu-item-register {
   font-weight: 400;
   font-size: 54px;
   line-height: 54px;
-  content: "\f124";
-  font-family: "woodmart-font"
+  content: '\f124';
+  font-family: 'woodmart-font'
 }
 
 .login-form-side .create-account-text {
@@ -2691,8 +2691,8 @@ table tfoot th {
   font-size: 20px;
   line-height: 20px;
   transition: opacity .2s ease;
-  content: "\f130";
-  font-family: "woodmart-font"
+  content: '\f130';
+  font-family: 'woodmart-font'
 }
 
 .searchform .searchsubmit:before {
@@ -2704,7 +2704,7 @@ table tfoot th {
   margin-left: -9px;
   opacity: 0;
   transition: opacity .1s ease, visibility .1s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -3135,7 +3135,7 @@ table tfoot th {
 }
 
 .woodmart-search-loader:after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -3598,7 +3598,7 @@ input[disabled] {
 .woodmart-load-more .load-more-loading:before {
   margin-right: 8px;
   margin-left: -8px;
-  content: "";
+  content: '';
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -3755,7 +3755,7 @@ input[disabled] {
 }
 
 .dropdown-html-placeholder:after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -3831,11 +3831,11 @@ input[disabled] {
   right: 20px;
   margin-top: -4px;
   color: rgba(82, 82, 82, .45);
-  font-family: "woodmart-font";
+  font-family: 'woodmart-font';
   line-height: 1;
   font-size: 55%;
   font-weight: 600;
-  content: "\f113"
+  content: '\f113'
 }
 
 .menu-simple-dropdown .color-scheme-light .sub-sub-menu {
@@ -3972,8 +3972,8 @@ input[disabled] {
   font-weight: 600;
   font-style: normal;
   font-size: 50%;
-  content: "\f129";
-  font-family: "woodmart-font"
+  content: '\f129';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-navigation.menu-center {
@@ -4096,7 +4096,7 @@ input[disabled] {
 
 .navigation-style-separated .item-level-0:not(:last-child):after,
 .navigation-style-bordered .item-level-0:not(:last-child):after {
-  content: "";
+  content: '';
   border-right: 1px solid
 }
 
@@ -4247,8 +4247,8 @@ input[disabled] {
   letter-spacing: 0;
   font-size: 12px;
   line-height: 1;
-  content: "\f124";
-  font-family: "woodmart-font"
+  content: '\f124';
+  font-family: 'woodmart-font'
 }
 
 .site-mobile-menu .menu-item-register>a {
@@ -4288,7 +4288,7 @@ input[disabled] {
 }
 
 .mobile-nav-tabs li:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 0;
@@ -4351,8 +4351,8 @@ input[disabled] {
   transition: -webkit-transform .25s ease;
   transition: transform .25s ease;
   transition: transform .25s ease, -webkit-transform .25s ease;
-  content: "\f113";
-  font-family: "woodmart-font"
+  content: '\f113';
+  font-family: 'woodmart-font'
 }
 
 .icon-sub-menu.up-icon {
@@ -4710,7 +4710,7 @@ input:focus:-webkit-autofill {
 }
 
 .woodmart-entry-content:after {
-  content: "";
+  content: '';
   display: block;
   clear: both
 }
@@ -4746,7 +4746,7 @@ input:focus:-webkit-autofill {
 }
 
 .post-img-wrapp a:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -4769,7 +4769,7 @@ input:focus:-webkit-autofill {
 
 .post-image-mask:after,
 .post-image-mask:before {
-  content: ""
+  content: ''
 }
 
 .post-image-mask:after,
@@ -4833,8 +4833,8 @@ input:focus:-webkit-autofill {
   line-height: 5px;
   opacity: 0;
   transition: opacity .35s ease;
-  content: "\f109";
-  font-family: "woodmart-font"
+  content: '\f109';
+  font-family: 'woodmart-font'
 }
 
 .read-more-section a:hover:after {
@@ -4854,8 +4854,8 @@ input:focus:-webkit-autofill {
 
 .woodmart-entry-meta .meta-featured-post:before {
   font-size: 14px;
-  content: "\f104";
-  font-family: "woodmart-font"
+  content: '\f104';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-entry-meta .meta-author {
@@ -4898,8 +4898,8 @@ input:focus:-webkit-autofill {
 .woodmart-entry-meta .meta-reply a:after {
   display: inline-block;
   font-size: 16px;
-  content: "\f103";
-  font-family: "woodmart-font"
+  content: '\f103';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-entry-meta .meta-reply .replies-count {
@@ -4985,7 +4985,7 @@ input:focus:-webkit-autofill {
 }
 
 .hovered-social-icons .woodmart-social-icons:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   right: 0;
@@ -4994,7 +4994,7 @@ input:focus:-webkit-autofill {
 }
 
 .hovered-social-icons .woodmart-social-icons:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 50%;
@@ -5014,8 +5014,8 @@ input:focus:-webkit-autofill {
   text-align: center;
   font-size: 16px;
   line-height: 20px;
-  content: "\f117";
-  font-family: "woodmart-font"
+  content: '\f117';
+  font-family: 'woodmart-font'
 }
 
 .hovered-social-icons:hover {
@@ -5194,8 +5194,8 @@ input:focus:-webkit-autofill {
   color: rgba(0, 0, 0, .06);
   font-size: 96px;
   line-height: 90px;
-  content: "\f131";
-  font-family: "woodmart-font"
+  content: '\f131';
+  font-family: 'woodmart-font'
 }
 
 .format-quote:hover .post-img-wrapp a {
@@ -5792,8 +5792,8 @@ button.mfp-close:after {
   display: inline-block;
   font-size: 16px;
   line-height: 50px;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 button.mfp-close:hover {
@@ -5828,7 +5828,7 @@ td.product-remove a:after,
 .woocommerce-remove-coupon:before,
 td.product-remove a:before,
 .wd-cross-button:before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -5933,7 +5933,7 @@ td.product-remove a:before {
   margin-top: -6px;
   -webkit-animation: wd-FadeInLoader .6s ease forwards;
   animation: wd-FadeInLoader .6s ease forwards;
-  content: "";
+  content: '';
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -6035,23 +6035,23 @@ td.product-remove a:before {
 }
 
 .woodmart-toolbar-shop .wd-tools-icon:before {
-  content: "\f146";
-  font-family: "woodmart-font"
+  content: '\f146';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-toolbar-blog .wd-tools-icon:before {
-  content: "\f145";
-  font-family: "woodmart-font"
+  content: '\f145';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-toolbar-home .wd-tools-icon:before {
-  content: "\f144";
-  font-family: "woodmart-font"
+  content: '\f144';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-toolbar-link .wd-tools-icon:before {
-  content: "\f140";
-  font-family: "woodmart-font"
+  content: '\f140';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-toolbar-link .woodmart-custom-icon {
@@ -6073,8 +6073,8 @@ td.product-remove a:before {
   margin-bottom: 10px;
   font-size: 100px;
   line-height: 100px;
-  content: "\f130";
-  font-family: "woodmart-font"
+  content: '\f130';
+  font-family: 'woodmart-font'
 }
 
 .not-found .entry-header .entry-title {
@@ -6243,7 +6243,7 @@ td.product-remove a:before {
 }
 
 .mfp-container:before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle
@@ -6412,7 +6412,7 @@ button::-moz-focus-inner {
 
 .mfp-arrow:before,
 .mfp-arrow:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -6508,7 +6508,7 @@ img.mfp-img {
 }
 
 .mfp-figure:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 40px;
   right: 0;
@@ -6706,7 +6706,7 @@ screen and (max-height: 300px) {
 }
 
 .slider-title:before {
-  content: " ";
+  content: ' ';
   position: absolute;
   top: 100%;
   left: 0;
@@ -6727,7 +6727,7 @@ screen and (max-height: 300px) {
 }
 
 .owl-carousel .owl-stage:after {
-  content: ".";
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
@@ -6948,8 +6948,8 @@ screen and (max-height: 300px) {
 
 .owl-nav>div[class*=prev]:after,
 .wrap-loading-arrow>div[class*=prev]:after {
-  content: "\f114";
-  font-family: "woodmart-font"
+  content: '\f114';
+  font-family: 'woodmart-font'
 }
 
 .owl-nav>div[class*=next],
@@ -6961,8 +6961,8 @@ screen and (max-height: 300px) {
 
 .owl-nav>div[class*=next]:after,
 .wrap-loading-arrow>div[class*=next]:after {
-  content: "\f113";
-  font-family: "woodmart-font"
+  content: '\f113';
+  font-family: 'woodmart-font'
 }
 
 .browser-Safari .owl-nav>div,
@@ -7136,7 +7136,7 @@ screen and (max-height: 300px) {
 
 .owl-loaded:after,
 .owl-loaded:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -7480,7 +7480,7 @@ screen and (max-height: 300px) {
 
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-  content: "";
+  content: '';
   top: 35px;
   background-color: rgba(0, 0, 0, .3);
   height: 30px;
@@ -7581,7 +7581,7 @@ screen and (max-height: 300px) {
 }
 
 a.pswp__share--facebook:before {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 0;
@@ -8171,7 +8171,7 @@ a.pswp__share--download:hover {
 
 .banner-hover-background:not(.banner-background) .wrapper-content-banner:after,
 .banner-hover-border:not(.banner-border) .wrapper-content-banner:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 20px;
   right: 20px;
@@ -8609,7 +8609,7 @@ a.pswp__share--download:hover {
 }
 
 .box-style-bg-hover:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -8724,7 +8724,7 @@ a.pswp__share--download:hover {
   margin-left: -9px;
   opacity: 0;
   transition: opacity 0s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -8810,8 +8810,8 @@ a.pswp__share--download:hover {
 
 .woodmart-pf-dropdown .filter-swatch>span[style^=background-image],
 .woodmart-woocommerce-layered-nav .filter-swatch>span[style^=background-image],
-.woodmart-pf-dropdown .filter-swatch>span[style$="#ffffff;"],
-.woodmart-woocommerce-layered-nav .filter-swatch>span[style$="#ffffff;"] {
+.woodmart-pf-dropdown .filter-swatch>span[style$='#ffffff;'],
+.woodmart-woocommerce-layered-nav .filter-swatch>span[style$='#ffffff;'] {
   border: 1px solid rgba(0, 0, 0, .15)
 }
 
@@ -8832,8 +8832,8 @@ a.pswp__share--download:hover {
   line-height: 1;
   opacity: 0;
   transition: opacity .2s ease;
-  content: "\f107";
-  font-family: "woodmart-font"
+  content: '\f107';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-pf-dropdown .pf-active>.pf-value .filter-swatch span:after,
@@ -9024,8 +9024,8 @@ p.stock.in-stock {
 }
 
 p.stock.in-stock:before {
-  content: "\f107";
-  font-family: "woodmart-font"
+  content: '\f107';
+  font-family: 'woodmart-font'
 }
 
 p.stock.out-of-stock {
@@ -9170,7 +9170,7 @@ td.product-total .amount {
 .wd-action-btn>a:after {
   opacity: 0;
   transition: opacity .2s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -9230,23 +9230,23 @@ td.product-total .amount {
 }
 
 .wd-action-btn.wd-add-cart-btn>a:before {
-  content: "\f123";
-  font-family: "woodmart-font"
+  content: '\f123';
+  font-family: 'woodmart-font'
 }
 
 .wd-action-btn.wd-quick-view-btn>a:before {
-  content: "\f130";
-  font-family: "woodmart-font"
+  content: '\f130';
+  font-family: 'woodmart-font'
 }
 
 .wd-action-btn.wd-sizeguide-btn>a:before {
-  content: "\f13f";
-  font-family: "woodmart-font"
+  content: '\f13f';
+  font-family: 'woodmart-font'
 }
 
 .wd-action-btn.wd-compare-btn>a:before {
-  content: "\f128";
-  font-family: "woodmart-font"
+  content: '\f128';
+  font-family: 'woodmart-font'
 }
 
 .wd-action-btn.wd-compare-btn .blockOverlay {
@@ -9289,14 +9289,14 @@ td.product-total .amount {
 }
 
 .wd-action-btn.wd-wishlist-btn>a:before {
-  content: "\f106";
-  font-family: "woodmart-font"
+  content: '\f106';
+  font-family: 'woodmart-font'
 }
 
 .wd-action-btn.wd-compare-btn>a.added:before,
 .wd-action-btn.wd-wishlist-btn>a.added:before {
-  content: "\f107";
-  font-family: "woodmart-font"
+  content: '\f107';
+  font-family: 'woodmart-font'
 }
 
 .color-scheme-light .wd-action-btn>a {
@@ -9383,7 +9383,7 @@ td.product-total .amount {
 }
 
 .product_list_widget>li:after {
-  content: "";
+  content: '';
   display: block;
   clear: both
 }
@@ -9492,7 +9492,7 @@ td.product-total .amount {
   margin-left: -10px;
   opacity: 0;
   transition: opacity .6s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -9581,8 +9581,8 @@ td.product-total .amount {
 .widget_shopping_cart .remove:after {
   font-weight: 700;
   font-size: 8px;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .widget_shopping_cart .remove:hover {
@@ -9722,7 +9722,7 @@ td.product-total .amount {
 }
 
 .widget_price_filter .ui-slider-horizontal:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   right: 0;
@@ -9765,7 +9765,7 @@ td.product-total .amount {
 }
 
 .widget_price_filter .ui-slider .ui-slider-handle:after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 4px;
   height: 15px
@@ -9914,8 +9914,8 @@ td.product-total .amount {
   margin-left: 8px;
   font-weight: 600;
   font-size: 8px;
-  content: "\f129";
-  font-family: "woodmart-font"
+  content: '\f129';
+  font-family: 'woodmart-font'
 }
 
 .search-by-category .list-wrapper {
@@ -10067,8 +10067,8 @@ td.product-total .amount {
   font-weight: 600;
   font-size: 9px;
   line-height: 1;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-woocommerce-layered-nav .layered-nav-link:hover .filter-swatch span:after,
@@ -10108,7 +10108,7 @@ td.product-total .amount {
 }
 
 .woodmart-woocommerce-layered-nav .with-swatch-text .layer-term-name:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   right: 0;
@@ -10294,7 +10294,7 @@ td.product-total .amount {
 }
 
 .wd-widget-stock-status a:before {
-  content: "";
+  content: '';
   display: inline-block;
   margin-top: -2px;
   margin-right: 8px;
@@ -10313,8 +10313,8 @@ td.product-total .amount {
   font-weight: 600;
   font-size: 10px;
   opacity: 0;
-  content: "\f107";
-  font-family: "woodmart-font"
+  content: '\f107';
+  font-family: 'woodmart-font'
 }
 
 .color-scheme-light .wd-widget-stock-status a:before {
@@ -10431,7 +10431,7 @@ del .amount {
 }
 
 .woodmart-swatch:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -10453,7 +10453,7 @@ del .amount {
   font-size: 0
 }
 
-.woodmart-swatch.swatch-with-bg[style$="#ffffff"] {
+.woodmart-swatch.swatch-with-bg[style$='#ffffff'] {
   border: 1px solid rgba(0, 0, 0, .15)
 }
 
@@ -10671,7 +10671,7 @@ ul.variation .item-variation-name {
   left: 50%;
   margin-top: -13px;
   margin-left: -13px;
-  content: "";
+  content: '';
   display: inline-block;
   width: 26px;
   height: 26px;
@@ -10774,8 +10774,8 @@ a.login-to-prices-msg:hover {
   transition: opacity .15s ease, transform .25s ease, -webkit-transform .25s ease;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
-  content: "\f123";
-  font-family: "woodmart-font"
+  content: '\f123';
+  font-family: 'woodmart-font'
 }
 
 .wd-add-btn-replace .add-to-cart-loop:after {
@@ -10786,7 +10786,7 @@ a.login-to-prices-msg:hover {
   margin-left: -9px;
   opacity: 0;
   transition: opacity .2s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -10843,7 +10843,7 @@ a.login-to-prices-msg:hover {
   margin-left: -16px;
   opacity: 0;
   transition: opacity .1s ease, visibility .1s ease;
-  content: "";
+  content: '';
   display: inline-block;
   width: 32px;
   height: 32px;
@@ -11033,7 +11033,7 @@ a.login-to-prices-msg:hover {
 }
 
 .quick-shop-wrapper .variations_form:before {
-  content: ""
+  content: ''
 }
 
 .quick-shop-wrapper .variations_form .woocommerce-variation {
@@ -11080,8 +11080,8 @@ a.login-to-prices-msg:hover {
   vertical-align: bottom;
   font-weight: 400;
   font-size: 19px;
-  content: "\f123";
-  font-family: "woodmart-font"
+  content: '\f123';
+  font-family: 'woodmart-font'
 }
 
 .quick-shop-wrapper table.variations {
@@ -11360,7 +11360,7 @@ a.login-to-prices-msg:hover {
   cursor: move
 }
 
-.image-action-zoom .zoomImg[src$=".png"] {
+.image-action-zoom .zoomImg[src$='.png'] {
   background-color: #fff;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden
@@ -11467,7 +11467,7 @@ a.login-to-prices-msg:hover {
 }
 
 .variations_form .variations label:after {
-  content: ":";
+  content: ':';
   margin-left: 2px
 }
 
@@ -11516,8 +11516,8 @@ a.login-to-prices-msg:hover {
   margin-right: 5px;
   font-size: 70%;
   font-weight: 600;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .variations_form .reset_variations:hover {
@@ -11560,7 +11560,7 @@ a.login-to-prices-msg:hover {
 }
 
 .variations_form .woocommerce-variation:after {
-  content: "";
+  content: '';
   display: block;
   clear: both
 }
@@ -11763,7 +11763,7 @@ a.login-to-prices-msg:hover {
 .woodmart-shop-loader:after,
 .woodmart-products-loader:after,
 .woodmart-tabs-loader:after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -11934,7 +11934,7 @@ a.login-to-prices-msg:hover {
 
 .woodmart-show-sidebar-btn .woodmart-side-bar-icon::before,
 .woodmart-show-sidebar-btn .woodmart-side-bar-icon::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0
 }
@@ -12022,8 +12022,8 @@ a.login-to-prices-msg:hover {
   font-weight: 700;
   font-size: 85%;
   opacity: .7;
-  content: "\f120";
-  font-family: "woodmart-font"
+  content: '\f120';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-checkout-steps ul li:last-child:after {
@@ -12123,7 +12123,7 @@ form.checkout>.woocommerce-NoticeGroup,
 }
 
 .woocommerce-billing-fields:after {
-  content: "";
+  content: '';
   display: block;
   clear: both
 }
@@ -12188,7 +12188,7 @@ div.create-account {
 .checkout-order-review:after,
 .woocommerce-order-pay .entry-content>.woocommerce:before,
 .woocommerce-order-pay .entry-content>.woocommerce:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;
@@ -12264,8 +12264,8 @@ div.create-account {
   color: #fff;
   font-size: 32px;
   line-height: 0;
-  content: "\f151";
-  font-family: "woodmart-font"
+  content: '\f151';
+  font-family: 'woodmart-font'
 }
 
 .payment_methods .payment_method_paypal img {
@@ -12601,7 +12601,7 @@ div.create-account {
 
 .wood-login-divider:after,
 .wood-login-divider:before {
-  content: "";
+  content: '';
   flex: 1 0 0;
   border-bottom: 1px solid
 }
@@ -12651,8 +12651,8 @@ div.create-account {
   text-shadow: 0 2px 3px rgba(0, 0, 0, .1);
   font-size: 26px;
   line-height: 7px;
-  content: "\f150";
-  font-family: "woodmart-font"
+  content: '\f150';
+  font-family: 'woodmart-font'
 }
 
 .woocommerce-password-strength {
@@ -12713,8 +12713,8 @@ div.create-account {
   font-weight: 400;
   font-size: 180px;
   line-height: 180px;
-  content: "\f125";
-  font-family: "woodmart-font"
+  content: '\f125';
+  font-family: 'woodmart-font'
 }
 
 .woocommerce-my-account-wrapper {
@@ -12903,8 +12903,8 @@ div.create-account {
 }
 
 .woodmart-my-account-links a:before {
-  content: "\f140";
-  font-family: "woodmart-font";
+  content: '\f140';
+  font-family: 'woodmart-font';
   display: block;
   color: #d0d0d0;
   margin-bottom: 10px;
@@ -12925,38 +12925,38 @@ div.create-account {
 }
 
 .woodmart-my-account-links .wishlist-link a:before {
-  content: "\f134";
-  font-family: "woodmart-font"
+  content: '\f134';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .edit-account-link a:before {
-  content: "\f135";
-  font-family: "woodmart-font"
+  content: '\f135';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .orders-link a:before {
-  content: "\f138";
-  font-family: "woodmart-font"
+  content: '\f138';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .downloads-link a:before {
-  content: "\f136";
-  font-family: "woodmart-font"
+  content: '\f136';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .payment-methods-link a:before {
-  content: "\f142";
-  font-family: "woodmart-font"
+  content: '\f142';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .edit-address-link a:before {
-  content: "\f139";
-  font-family: "woodmart-font"
+  content: '\f139';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-my-account-links .customer-logout-link a:before {
-  content: "\f137";
-  font-family: "woodmart-font"
+  content: '\f137';
+  font-family: 'woodmart-font'
 }
 
 .woocommerce-Button--next,
@@ -13186,8 +13186,8 @@ button[name=track]:hover {
 }
 
 .cart-empty:before {
-  content: "\f147";
-  font-family: "woodmart-font"
+  content: '\f147';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-products-tabs .tabs-navigation-wrapper {
@@ -13528,8 +13528,8 @@ button[name=track]:hover {
   transition: -webkit-transform .2s ease;
   transition: transform .2s ease;
   transition: transform .2s ease, -webkit-transform .2s ease;
-  content: "\f129";
-  font-family: "woodmart-font";
+  content: '\f129';
+  font-family: 'woodmart-font';
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden
 }
@@ -13582,8 +13582,8 @@ button[name=track]:hover {
   font-size: 8px;
   opacity: 0;
   transition: opacity .2s ease;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .woodmart-pf-results li:hover {
@@ -13735,7 +13735,7 @@ button[name=track]:hover {
 }
 
 .woodmart-pf-price-range .price_label .from:after {
-  content: "-";
+  content: '-';
   margin-right: 10px;
   margin-left: 10px
 }
@@ -13803,7 +13803,7 @@ button[name=track]:hover {
 
 .slick-track:before,
 .slick-track:after {
-  content: "";
+  content: '';
   display: table
 }
 
@@ -13920,8 +13920,8 @@ button[name=track]:hover {
 }
 
 .thumbnails.slick-slider>button.slick-prev:before {
-  content: "\f115";
-  font-family: "woodmart-font"
+  content: '\f115';
+  font-family: 'woodmart-font'
 }
 
 .thumbnails.slick-slider>button.slick-next {
@@ -13929,8 +13929,8 @@ button[name=track]:hover {
 }
 
 .thumbnails.slick-slider>button.slick-next:before {
-  content: "\f129";
-  font-family: "woodmart-font"
+  content: '\f129';
+  font-family: 'woodmart-font'
 }
 
 body .select2-container--default {
@@ -14055,8 +14055,8 @@ body .select2-container--default .select2-search--dropdown:after {
   color: #8c8c8c;
   font-size: 18px;
   line-height: 18px;
-  content: "\f130";
-  font-family: "woodmart-font"
+  content: '\f130';
+  font-family: 'woodmart-font'
 }
 
 body .select2-container--default .select2-results__option--highlighted[aria-selected] {
@@ -14216,11 +14216,11 @@ body .select2-container--default.select2-container--focus .select2-selection--mu
 
 select,
 body .select2-container--default .select2-selection--single .select2-selection__arrow {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==")
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9IiNiYmIiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==')
 }
 
 .color-scheme-light select {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9InJnYmEoMjU1LCAyNTUsIDI1NSwgMC42KSI+PHBhdGggZD0iTTYgOWw2IDYgNi02Ii8+PC9zdmc+")
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2U9InJnYmEoMjU1LCAyNTUsIDI1NSwgMC42KSI+PHBhdGggZD0iTTYgOWw2IDYgNi02Ii8+PC9zdmc+')
 }
 
 .site-logo,
@@ -14388,7 +14388,7 @@ a.product-title:hover,
   left: 24px;
   margin-top: -9px;
   font-size: 18px;
-  font-family: "woodmart-font";
+  font-family: 'woodmart-font';
   line-height: 18px
 }
 
@@ -14478,7 +14478,7 @@ a.product-title:hover,
 }
 
 .woocommerce-message:before {
-  content: "\f107"
+  content: '\f107'
 }
 
 .woocommerce-error,
@@ -14488,7 +14488,7 @@ a.product-title:hover,
 
 .woocommerce-error:before,
 .woocommerce-info:before {
-  content: "\f100"
+  content: '\f100'
 }
 
 .wd-notice.wd-info {
@@ -14496,7 +14496,7 @@ a.product-title:hover,
 }
 
 .wd-notice.wd-info:before {
-  content: "\f100"
+  content: '\f100'
 }
 
 .notifications-sticky .woocommerce-error,
@@ -14532,8 +14532,8 @@ a.product-title:hover,
   font-size: 14px;
   cursor: pointer;
   transition: background-color .25s ease;
-  content: "\f112";
-  font-family: "woodmart-font"
+  content: '\f112';
+  font-family: 'woodmart-font'
 }
 
 .notifications-sticky .hidden-notice.woocommerce-error,
@@ -14883,7 +14883,7 @@ a.product-title:hover,
 .woodmart-search-dropdown:after,
 .sub-menu-dropdown:after,
 .menu-simple-dropdown .sub-sub-menu:after {
-  content: "";
+  content: '';
   position: absolute
 }
 
@@ -15029,7 +15029,7 @@ aside.sidebar-container.show-hidden-sidebar,
 .woodmart-checkout-steps ul li span:after,
 .woodmart-products-tabs.tabs-design-default .products-tabs-title .tab-label:after,
 .woodmart-products-tabs.tabs-design-alt .products-tabs-title .tab-label:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 100%;
   left: 0;
@@ -15164,8 +15164,8 @@ aside.sidebar-container.show-hidden-sidebar,
   top: 6px;
   left: -20px;
   font-size: 8px;
-  content: "\f113";
-  font-family: "woodmart-font"
+  content: '\f113';
+  font-family: 'woodmart-font'
 }
 
 .wrap-loading-arrow>div:not(.disabled):hover,
@@ -15587,7 +15587,7 @@ button[name=track]:hover,
     width: 100%
   }
   .whb-boxed:not(.whb-sticked) .whb-main-header:before {
-    content: "";
+    content: '';
     display: block;
     height: 30px
   }
