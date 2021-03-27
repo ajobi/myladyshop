@@ -3,6 +3,15 @@
 .single-product-page {
   margin-top: 15px !important;
 
+  .product_title {
+    font-family: $font-family-montserrat;
+    color: $color-text;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
   @media (min-width: $screen-size-desktop) {
     padding-top: 30px;
   }
