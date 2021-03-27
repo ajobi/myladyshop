@@ -19,18 +19,15 @@ h1, h2, h3, h4, h5, h6 {
 .product_title {
   font-family: $font-family-montserrat;
   color: $color-text;
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .nav-link-text {
   font-family: $font-family-montserrat;
-  color: $color-text !important;
+  color: $color-text;
   font-weight: 500;
   font-size: 12px;
-}
-
-.entry-title {
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.4px;
 }
