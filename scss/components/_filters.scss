@@ -1,20 +1,12 @@
 @import '../utilities/variables';
 
-.woodmart-sticky-sidebar-opener {
-  flex-basis: auto !important;
-  background-color: transparent;
-  border-radius: 100%;
-  padding: 0 !important;
-  width: 70px !important;
-  height: 70px !important;
-  animation: animate-filters forwards ease-in 200ms 1000ms;
-  flex-grow: 0 !important;
-
-  .woodmart-toolbar-label {
-    bottom: 15px;
-  }
+// components above our custom filters (breadcrumbs, sorting...)
+.shop-loop-head,
+.woodmart-buttons {
+  display: none;
 }
 
+// custom woodmart filters
 .filters-area {
   display: none;
 
@@ -33,11 +25,6 @@
       background-color: $color-brand-primary;
     }
   }
-}
-
-.shop-loop-head,
-.woodmart-buttons {
-  display: none;
 }
 
 @media (min-width: $screen-size-desktop) {
@@ -69,5 +56,20 @@
     .pf-value {
       height: 46px;
     }
+  }
+}
+
+.woodmart-sticky-sidebar-opener {
+  flex-basis: auto !important;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 0 !important;
+  width: 70px !important;
+  height: 70px !important;
+  animation: animate-filters forwards ease-in 200ms 1000ms;
+  flex-grow: 0 !important;
+
+  .woodmart-toolbar-label {
+    bottom: 15px;
   }
 }
