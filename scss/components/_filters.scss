@@ -24,37 +24,30 @@
     button {
       background-color: $color-brand-primary;
     }
-  }
-}
 
-@media (min-width: $screen-size-desktop) {
-  .woodmart-pf-title {
-    border: 1px solid rgba(0,0,0,0.1);
-    padding-left: 20px;
-    letter-spacing: 0.3px;
-    background-color: $color-white;
-
-    .title-text {
-      font-weight: 500;
-      font-size: 12px;
-      letter-spacing: 0.5px;
-      color: $color-text;
-    }
-  }
-
-  .form-style-semi-rounded {
     .woodmart-pf-title {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding-left: 20px;
+      letter-spacing: 0.3px;
       border-radius: 2px;
+      background-color: $color-white;
+
+      .title-text {
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        color: $color-text;
+      }
     }
-  }
 
-  .woodmart-pf-dropdown {
-    background-color: $color-white;
-    border-radius: 0 0 5px 5px;
-    box-shadow: 0 2px 3px rgba(0,0,0,.15);
+    .woodmart-pf-dropdown {
+      background-color: $color-white;
+      border-radius: 0 0 5px 5px;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
 
-    .pf-value {
-      height: 46px;
+      .pf-value {
+        height: 46px;
+      }
     }
   }
 }
