@@ -16,6 +16,10 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
   color: $color-text;
 }
 
+@mixin animate-filters($animation) {
+  animation: $animation forwards ease-in 200ms 1000ms;
+}
+
 @keyframes animation-filters {
   100% {
     background-color: $color-brand-accent;
@@ -87,7 +91,7 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
     padding: 0;
     width: 70px;
     height: 70px;
-    animation: animation-filters forwards ease-in 200ms 1000ms;
+    @include animate-filters(animation-filters);
 
     &:after {
       position: absolute;
@@ -96,7 +100,7 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
       height: 22px;
       background-color: $color-text;
       -webkit-mask: $url-icon-filter;
-      animation: animation-filters-icon forwards ease-in 200ms 1000ms;
+      @include animate-filters(animation-filters-icon);
     }
 
     .woodmart-toolbar-label {
