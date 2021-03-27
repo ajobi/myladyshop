@@ -22,14 +22,6 @@
     }
   }
 
-  .searchform {
-    .searchsubmit {
-      &:before {
-        border-left-color: unset;
-      }
-    }
-  }
-
   @media (min-width: $screen-size-desktop) {
     input[type='text'] {
       height: 40px;
