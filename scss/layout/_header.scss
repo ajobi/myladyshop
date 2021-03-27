@@ -26,6 +26,12 @@
   background-color: $color-brand-primary !important;
 }
 
+.woodmart-logo {
+  img {
+    max-width: 160px !important;
+  }
+}
+
 .searchform {
   .searchsubmit {
     &:before {
