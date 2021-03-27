@@ -16,19 +16,21 @@
 }
 
 .filters-area {
-  &.custom-content {
-    display: none !important;
+  display: none;
 
-    @media (min-width: $screen-size-desktop) {
-      display: block !important;
-      border-top: 0 !important;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      margin-bottom: 12px;
+  .woodmart-active-filters {
+    margin-top: -10px;
+  }
 
-      button {
-        background-color: $color-brand-primary;
-      }
+  @media (min-width: $screen-size-desktop) {
+    display: block;
+    border-top: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+
+    button {
+      background-color: $color-brand-primary;
     }
   }
 }
@@ -36,10 +38,6 @@
 .shop-loop-head,
 .woodmart-buttons {
   display: none;
-}
-
-.filters-area+.woodmart-active-filters {
-  margin-top: -10px;
 }
 
 @media (min-width: $screen-size-desktop) {
