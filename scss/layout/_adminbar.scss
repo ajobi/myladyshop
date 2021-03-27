@@ -4,4 +4,12 @@ html {
   #wpadminbar {
     display: none;
   }
+
+  .admin-bar {
+    .area-sidebar-shop,
+    .cart-widget-side,
+    .mobile-nav {
+      top: 0 !important;
+    }
+  }
 }
