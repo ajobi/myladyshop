@@ -1,0 +1,57 @@
+.area-sidebar-shop {
+  .widget-title {
+    margin-bottom: 20px !important;
+  }
+
+  .woocommerce-ordering-list {
+    li {
+      margin: 0;
+    }
+
+    a {
+      font-size: 14px;
+      padding: 12px 0;
+      display: block;
+    }
+  }
+
+  .widget_product_categories {
+    .product-categories {
+      li {
+        a {
+          font-size: 14px;
+          padding: 12px 0;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .woodmart-woocommerce-layered-nav {
+    .with-swatch-text {
+      .layered-nav-link {
+        padding: 8px 0;
+      }
+    }
+
+    .swatches-normal {
+      .with-swatch-text {
+        .layer-term-name {
+          font-size: 14px;
+          font-weight: 400;
+          color: #727272;
+        }
+      }
+    }
+
+    .filter-swatch {
+      margin-right: 15px;
+    }
+  }
+
+  .woodmart-pf-dropdown {
+    .filter-swatch {
+      margin-right: 15px;
+    }
+  }
+}
