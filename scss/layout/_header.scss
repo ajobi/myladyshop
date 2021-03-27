@@ -1,76 +1,72 @@
 @import '../utilities/variables';
 
-/* HEADER MOBILE */
-.woodmart-burger-icon a,
-.mobile-search-icon a {
-  color: $color-white;
-  font-size: 12px;
-
-  &:hover {
-    color: $color-white;
-    opacity: 0.6;
-  }
-}
-
-/* HEADER 1 */
 .whb-header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
-}
 
-/* HEADER 2 */
-.whb-general-header {
-  background-color: $color-brand-primary !important;
-}
-
-.woodmart-logo {
-  img {
-    max-width: 160px !important;
-  }
-}
-
-.searchform {
-  .searchsubmit {
-    &:before {
-      border-left-color: unset;
+  .woodmart-logo {
+    img {
+      max-width: 160px !important;
     }
   }
-}
 
-/* HEADER 3 */
-.whb-header-bottom {
-  border-bottom: 1px solid $color-background;
+  .whb-general-header {
+    background-color: $color-brand-primary !important;
 
-  .nav-link-text {
-    font-family: $font-family-montserrat;
-    color: $color-text;
-    font-weight: 500;
-    font-size: 12px;
+    a {
+      color: $color-white;
+      font-size: 12px;
+
+      &:hover {
+        color: $color-white;
+        opacity: 0.6;
+      }
+    }
+
+    .searchform {
+      .searchsubmit {
+        &:before {
+          border-left-color: unset;
+        }
+      }
+    }
   }
-}
 
-.woodmart-shopping-cart {
-  .woodmart-cart-subtotal {
-    .amount {
+  .whb-header-bottom {
+    border-bottom: 1px solid $color-background;
+
+    .nav-link-text {
+      font-family: $font-family-montserrat;
       color: $color-text;
+      font-weight: 500;
+      font-size: 12px;
     }
-  }
-}
 
-#menu-hlavne-menu,
-#menu-hlavne-menu-1 {
-  li {
-    &:nth-child(2) {
-      .nav-link-text {
-        color: $color-brand-accent !important;
-        font-weight: 600;
+    .woodmart-shopping-cart {
+      .woodmart-cart-subtotal {
+        .amount {
+          color: $color-text;
+        }
+      }
+    }
+
+    #menu-hlavne-menu,
+    #menu-hlavne-menu-1 {
+      li {
+        &:nth-child(2) {
+          .nav-link-text {
+            color: $color-brand-accent !important;
+            font-weight: 600;
+          }
+        }
       }
     }
   }
 }
+
 
 @media (min-width: $screen-size-desktop) {
   /* HEADER 2 */
