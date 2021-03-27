@@ -1,14 +1,26 @@
 @import '../utilities/variables';
 
-.footer-sidebar {
-  padding: 50px 15px 40px;
-}
-
 .main-footer {
   text-align: center;
 
   @media (min-width: $screen-size-tablet) {
     text-align: left;
+  }
+
+  .footer-sidebar {
+    padding: 50px 15px 40px;
+  }
+
+  .footer-column {
+    @media (min-width: $screen-size-desktop) {
+      padding-left: 70px;
+      padding-right: 0;
+
+      &:first-child {
+        padding-left: 15px;
+        padding-right: 20px;
+      }
+    }
   }
 
   .widget-title, h5 {
@@ -17,6 +29,10 @@
     font-size: 14px;
     letter-spacing: 0.3px;
     font-weight: 500;
+  }
+
+  .widget_nav_menu {
+    margin-top: 15px;
   }
 
   a {
@@ -32,37 +48,15 @@
     font-size: 13px;
     padding: 0 30px;
   }
-}
 
-.footer-column-1 {
-  p {
-    font-size: 14px;
-    line-height: 180%;
+  .footer-column-1 {
+    p {
+      font-size: 14px;
+      line-height: 180%;
 
-    @media (min-width: $screen-size-landscape) {
-      padding: 0;
-    }
-  }
-}
-
-.widget_nav_menu {
-  margin-top: 15px;
-}
-
-@media (min-width: $screen-size-landscape) {
-  .footer-sidebar {
-    padding: 50px 15px 40px;
-  }
-}
-
-@media (min-width: $screen-size-desktop) {
-  .footer-column {
-    padding-left: 70px;
-    padding-right: 0;
-
-    &:first-child {
-      padding-left: 15px;
-      padding-right: 20px;
+      @media (min-width: $screen-size-landscape) {
+        padding: 0;
+      }
     }
   }
 }
