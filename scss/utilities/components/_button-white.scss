@@ -1,0 +1,15 @@
+@import '../variables';
+
+.button-white {
+  color: $color-text;
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  font-weight: 500;
+  font-family: $font-family-montserrat;
+  padding: 15px 45px;
+
+  &:hover {
+    box-shadow: none;
+    color: rgba(28, 27, 27, 0.6) !important;
+  }
+}

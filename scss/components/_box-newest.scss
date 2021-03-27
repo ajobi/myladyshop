@@ -1,8 +1,13 @@
 @import '../utilities/variables';
+@import '../utilities/components/button-white';
 
 .newest-collection {
   .title-wrapper {
     margin-bottom: 0;
+  }
+
+  .btn.btn-color-white {
+    @extend .button-white;
   }
 
   h2.title {
