@@ -5,7 +5,7 @@
     "build": "yarn sass && yarn postcss",
     "sass": "sass --no-source-map scss/main.scss ./dist/main.css",
     "postcss": "postcss -o ./dist/main.css ./dist/main.css",
-    "lint": "stylelint \"**/*.scss\""
+    "lint": "stylelint \"./scss/**/*.scss\""
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
