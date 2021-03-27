@@ -22,25 +22,6 @@
   letter-spacing: 2.4px;
 }
 
-.product-picker {
-  .woodmart-tabs-header {
-    margin-bottom: 20px !important;
-  }
-
-  .products-tabs-title {
-    li {
-      letter-spacing: 1px;
-      font-weight: 500;
-    }
-  }
-
-  .tab-label {
-    &:after {
-      height: 1px !important;
-    }
-  }
-}
-
 .text-teaser {
   padding-bottom: 30px;
 
@@ -123,19 +104,6 @@
 }
 
 @media (min-width: $screen-size-desktop) {
-  .product-picker {
-    .woodmart-tabs-header {
-      margin-bottom: 30px !important;
-    }
-
-    .products-tabs-title {
-      li {
-        padding-left: 25px;
-        padding-right: 25px;
-      }
-    }
-  }
-
   .text-teaser {
     img {
       max-height: 420px;

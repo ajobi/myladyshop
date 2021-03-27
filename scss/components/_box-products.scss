@@ -1,0 +1,29 @@
+@import '../utilities/variables';
+
+.product-picker {
+  .woodmart-tabs-header {
+    margin-bottom: 20px !important;
+
+    @media (min-width: $screen-size-desktop) {
+      margin-bottom: 30px !important;
+    }
+  }
+
+  .products-tabs-title {
+    li {
+      letter-spacing: 1px;
+      font-weight: 500;
+
+      @media (min-width: $screen-size-desktop) {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .tab-label {
+    &:after {
+      height: 1px !important;
+    }
+  }
+}
