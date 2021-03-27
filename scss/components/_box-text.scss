@@ -1,0 +1,80 @@
+@import '../utilities/variables';
+
+.text-teaser {
+  padding-bottom: 30px;
+
+  @media (min-width: $screen-size-landscape) {
+    padding-bottom: 30px;
+  }
+
+  .wpb_column {
+    &:last-child {
+      .vc_column-inner {
+        padding: 0 !important;
+
+        @media (min-width: $screen-size-landscape) {
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+
+  img {
+    max-height: 320px;
+    object-fit: cover;
+
+    @media (min-width: $screen-size-desktop) {
+      max-height: 420px;
+      object-fit: cover;
+      padding-left: 100px;
+    }
+  }
+
+  h2 {
+    max-width: 100% !important;
+    letter-spacing: 2.4px;
+    line-height: 150% !important;
+
+    @media (min-width: $screen-size-desktop) {
+      letter-spacing: 3.6px;
+    }
+  }
+
+  .title-subtitle {
+    line-height: 150% !important;
+    font-weight: 200 !important;
+    font-family: $font-family-nunito;
+    letter-spacing: 4px;
+
+    @media (min-width: $screen-size-desktop) {
+      letter-spacing: 5.3px;
+    }
+  }
+
+  .title-after_title {
+    line-height: 160%;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+
+    @media (min-width: $screen-size-desktop) {
+      font-size: 18px;
+      letter-spacing: 0.36px;
+    }
+  }
+
+  a {
+    background-color: $color-white !important;
+    color: $color-brand-primary !important;
+    padding: 15px 45px !important;
+    border: 1px solid rgba(0,0,0, 0.8) !important;
+    font-family: $font-family-montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+
+    &:hover {
+      color: rgba(28, 27, 27, 0.6) !important;
+    }
+  }
+}
