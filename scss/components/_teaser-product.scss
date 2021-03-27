@@ -43,10 +43,8 @@
   del {
     color: $color-text-light;
   }
-}
 
-.woocommerce-Price-amount {
-  &.amount {
+  .amount {
     font-weight: 600;
     font-size: 10px;
     letter-spacing: 1px;
@@ -55,11 +53,5 @@
       font-size: 12px;
       letter-spacing: 1.2px;
     }
-  }
-}
-
-.woodmart-hover-base[class*=add-small] {
-  .wd-bottom-actions>div:not(:last-child) {
-    border: none;
   }
 }
