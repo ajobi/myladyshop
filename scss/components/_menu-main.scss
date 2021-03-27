@@ -2,31 +2,27 @@
 
 #menu-hlavne-menu,
 #menu-hlavne-menu-1 {
-  .nav-link-text {
+  .woodmart-nav-link {
     font-family: $font-family-montserrat;
     color: $color-text;
     font-weight: 500;
     font-size: 12px;
-  }
 
-  li {
-    &:nth-child(2) {
-      .nav-link-text {
-        color: $color-brand-accent !important;
-        font-weight: 600;
-      }
-    }
-  }
-}
-
-@media (min-width: $screen-size-desktop) {
-  #menu-hlavne-menu {
-    a {
+    @media (min-width: $screen-size-desktop) {
       padding-right: 30px;
       letter-spacing: 0.3px
     }
+  }
 
-    li {
+  .menu-item {
+    &:nth-child(2) {
+      .woodmart-nav-link {
+        color: $color-brand-accent;
+        font-weight: 600;
+      }
+    }
+
+    @media (min-width: $screen-size-desktop) {
       &:nth-child(n + 8) {
         display: none;
       }
