@@ -7,44 +7,10 @@
     height: 85px !important;
   }
 
-  .nav-link-text {
-    font-family: $font-family-montserrat;
-    color: $color-text;
-    font-weight: 500;
-    font-size: 12px;
-  }
-
   .woodmart-shopping-cart {
     .woodmart-cart-subtotal {
       .amount {
         color: $color-text;
-      }
-    }
-  }
-
-  #menu-hlavne-menu,
-  #menu-hlavne-menu-1 {
-    li {
-      &:nth-child(2) {
-        .nav-link-text {
-          color: $color-brand-accent !important;
-          font-weight: 600;
-        }
-      }
-    }
-  }
-
-  @media (min-width: $screen-size-desktop) {
-    #menu-hlavne-menu {
-      a {
-        padding-right: 30px;
-        letter-spacing: 0.3px
-      }
-
-      li {
-        &:nth-child(n + 8) {
-          display: none;
-        }
       }
     }
   }
