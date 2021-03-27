@@ -43,6 +43,13 @@
 /* HEADER 3 */
 .whb-header-bottom {
   border-bottom: 1px solid $color-background;
+
+  .nav-link-text {
+    font-family: $font-family-montserrat;
+    color: $color-text;
+    font-weight: 500;
+    font-size: 12px;
+  }
 }
 
 .woodmart-shopping-cart {
