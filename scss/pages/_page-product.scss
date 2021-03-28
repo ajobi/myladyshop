@@ -2,8 +2,6 @@
 @import '../utilities/components/button-black-cta';
 
 .single-product-page {
-  margin-top: 15px;
-
   @media (min-width: $screen-size-desktop) {
     padding-top: 30px;
   }
@@ -13,6 +11,14 @@
   .wd-attr-selected,
   .product-tabs-wrapper {
     display: none !important;
+  }
+
+  .product-images {
+    padding: 0;
+
+    .product-image-wrap {
+      padding: 0;
+    }
   }
 
   .thumbnails {
