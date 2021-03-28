@@ -30,6 +30,23 @@
     }
   }
 
+  // TODO: finish
+  .entry-summary {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      height: 50px;
+      border-radius: 50px 50px 0 0;
+      background-color: $color-white;
+      //box-shadow: 0 10px 120px rgba(0, 0, 0, 0.3);
+    }
+  }
+
   .product_title {
     font-family: $font-family-montserrat;
     color: $color-text;
