@@ -96,24 +96,36 @@
     height: 48px;
     border-radius: 15px;
     margin: 7px 15px;
+  }
 
-    &.swatch-size- {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: $color-background-light;
+  div[data-id='pa_velkost'] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
-      &.active-swatch {
-        background-color: $color-background;
-      }
+    .woodmart-swatch {
+      &.swatch-size- {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-background-light;
 
-      &::after {
-        display: none;
+        &.active-swatch {
+          background-color: $color-background;
+        }
+
+        &::after {
+          display: none;
+        }
       }
     }
   }
 
   div[data-id='pa_farba'] {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
     .woodmart-swatch {
       &::before {
         position: absolute;
