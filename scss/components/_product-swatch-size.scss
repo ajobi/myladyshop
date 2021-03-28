@@ -10,20 +10,28 @@ div[data-id='pa_velkost'] {
     height: 48px;
     border-radius: 15px;
     margin: 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    background-color: $color-background-light;
+    transition: all 100ms;
 
-    &.swatch-size- {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: $color-background-light;
+    &:hover {
+      background-color: $color-background;
+    }
 
-      &.active-swatch {
-        background-color: $color-background;
-      }
+    &:active {
+      transform: scale(0.92);
+      background-color: $color-background;
+    }
 
-      &::after {
-        display: none;
-      }
+    &.active-swatch {
+      background-color: $color-background;
+    }
+
+    &::after {
+      display: none;
     }
   }
 }
