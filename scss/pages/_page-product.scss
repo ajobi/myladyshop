@@ -33,6 +33,11 @@
   // TODO: finish
   .entry-summary {
     position: relative;
+    padding-top: 20px;
+
+    @media (min-width: $screen-size-desktop) {
+      padding-top: 0;
+    }
 
     &:before {
       content: '';
