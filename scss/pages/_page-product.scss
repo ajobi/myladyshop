@@ -2,7 +2,7 @@
 @import '../utilities/components/button-black-cta';
 
 .single-product-page {
-  margin-top: 15px !important;
+  margin-top: 15px;
 
   @media (min-width: $screen-size-desktop) {
     padding-top: 30px;
@@ -48,7 +48,7 @@
     font-weight: 300;
 
     &::before {
-      display: none !important;
+      display: none;
     }
   }
 
@@ -60,10 +60,10 @@
     &.in-stock {
       text-align: center;
       font-weight: 500;
-      color: $color-success !important;
+      color: $color-success;
 
       &::before {
-        color: $color-success !important;
+        color: $color-success;
       }
     }
   }
@@ -92,7 +92,7 @@
   }
 
   .woodmart-swatch {
-    margin: 7px 15px !important;
+    margin: 7px 15px;
 
     &.swatch-size- {
       width: 48px;
