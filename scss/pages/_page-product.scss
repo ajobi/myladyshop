@@ -174,28 +174,4 @@
       }
     }
   }
-
-  .slider-title {
-    &::before {
-      display: none;
-    }
-  }
-
-  .related-and-upsells {
-    margin-top: 40px !important;
-    border-top: 1px solid rgba(0,0,0,0.1) !important;
-    padding-top: 30px !important;
-  }
-
-  .related-products {
-    h3 {
-      font-weight: 500 !important;
-    }
-  }
-
-  .swatches-select {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 }
