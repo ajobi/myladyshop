@@ -14,15 +14,11 @@
     display: none !important;
   }
 
-  .woocommerce-product-gallery {
-    .thumbnails {
-      &.thumbnails-ready {
-        display: none;
+  .thumbnails {
+    display: none;
 
-        @media (min-width: $screen-size-desktop) {
-          display: block;
-        }
-      }
+    @media (min-width: $screen-size-desktop) {
+      display: block;
     }
   }
 
@@ -35,142 +31,130 @@
     text-transform: uppercase;
   }
 
-  .summary-inner {
-    .woocommerce-Price-amount {
-      &.amount {
-        font-size: 18px;
-      }
+  .amount {
+    font-size: 18px;
+  }
+
+  p {
+    font-family: $font-family-nunito;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  li {
+    font-family: $font-family-nunito;
+    font-size: 16px;
+    font-weight: 300;
+
+    &::before {
+      display: none !important;
+    }
+  }
+
+  .stock {
+    &.out-of-stock {
+      text-align: center;
     }
 
-    li {
-      &::before {
-        display: none !important;
-      }
-    }
-
-    tr {
-      margin: 20px;
-    }
-
-    .variations {
-      tr {
-        flex-direction: column;
-      }
-    }
-
-    .variations_form {
-      .variations {
-        label {
-          &:after {
-            display: none;
-          }
-        }
-      }
-    }
-
-    .label {
-      padding-bottom: 20px !important;
-    }
-
-    .single_add_to_cart_button {
-      font-family: $font-family-montserrat;
-      font-size: 14px;
+    &.in-stock {
+      text-align: center;
       font-weight: 500;
-      padding: 18px 40px;
-      border-radius: 5px !important;
-      margin-top: 40px;
+      color: $color-success !important;
 
-      @media (min-width: $screen-size-desktop) {
-        margin-top: 20px;
-        padding: 14px 30px;
+      &::before {
+        color: $color-success !important;
       }
     }
+  }
 
-    p, li {
-      font-family: $font-family-nunito;
-      font-size: 16px;
-      font-weight: 300;
-    }
+  tr {
+    margin: 20px;
+  }
 
-    .woodmart-swatch {
-      margin: 7px 15px !important;
-
-      &.swatch-size- {
-        width: 48px;
-        height: 48px;
-        background-color: $color-background-light;
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        &.active-swatch {
-          background-color: $color-background;
-        }
-
-        &::after {
+  .variations_form {
+    .variations {
+      label {
+        &:after {
           display: none;
-        }
-      }
-    }
-
-    div[data-id='pa_farba'] {
-      .woodmart-swatch {
-        width: 48px;
-        height: 48px;
-        border-radius: 15px;
-
-        &::before {
-          position: absolute;
-          content: '\f107';
-          font-family: $font-family-woodmart;
-          color: $color-white;
-          left: 50%;
-          top: 50%;
-          transform: translateX(-50%) translateY(-50%);
-          font-size: 18px;
-          font-weight: 500;
-          opacity: 0;
-        }
-
-        &::after {
-          content: '';
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          border-radius: 15px;
-          border: 4px solid $color-white;
-          opacity: 0;
-        }
-      }
-
-      .active-swatch {
-        &::before {
-          opacity: 1;
-        }
-
-        &::after {
-          opacity: 0.5;
         }
       }
     }
   }
 
-  p {
-    &.stock {
-      &.out-of-stock {
-        text-align: center;
+  .single_add_to_cart_button {
+    font-family: $font-family-montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 18px 40px;
+    border-radius: 5px !important;
+    margin-top: 40px;
+
+    @media (min-width: $screen-size-desktop) {
+      margin-top: 20px;
+      padding: 14px 30px;
+    }
+  }
+
+  .woodmart-swatch {
+    margin: 7px 15px !important;
+
+    &.swatch-size- {
+      width: 48px;
+      height: 48px;
+      background-color: $color-background-light;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.active-swatch {
+        background-color: $color-background;
       }
 
-      &.in-stock {
-        text-align: center;
-        font-weight: 500;
-        color: $color-success !important;
+      &::after {
+        display: none;
+      }
+    }
+  }
 
-        &::before {
-          color: $color-success !important;
-        }
+  div[data-id='pa_farba'] {
+    .woodmart-swatch {
+      width: 48px;
+      height: 48px;
+      border-radius: 15px;
+
+      &::before {
+        position: absolute;
+        content: '\f107';
+        font-family: $font-family-woodmart;
+        color: $color-white;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 18px;
+        font-weight: 500;
+        opacity: 0;
+      }
+
+      &::after {
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 15px;
+        border: 4px solid $color-white;
+        opacity: 0;
+      }
+    }
+
+    .active-swatch {
+      &::before {
+        opacity: 1;
+      }
+
+      &::after {
+        opacity: 0.5;
       }
     }
   }
