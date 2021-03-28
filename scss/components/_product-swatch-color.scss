@@ -10,6 +10,7 @@ div[data-id='pa_farba'] {
     height: 48px;
     border-radius: 15px;
     margin: 7px 15px;
+    transition: all 100ms;
 
     &::before {
       position: absolute;
@@ -34,15 +35,25 @@ div[data-id='pa_farba'] {
       border: 4px solid $color-white;
       opacity: 0;
     }
-  }
 
-  .active-swatch {
-    &::before {
-      opacity: 1;
+    &:hover {
+      &::after {
+        opacity: 0.4;
+      }
     }
 
-    &::after {
-      opacity: 0.5;
+    &:active {
+      transform: scale(0.92);
+    }
+
+    &.active-swatch {
+      &::before {
+        opacity: 1;
+      }
+
+      &::after {
+        opacity: 0.4;
+      }
     }
   }
 }
