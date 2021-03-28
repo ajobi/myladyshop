@@ -47,5 +47,12 @@ div[data-id='pa_farba'] {
         opacity: 0.4;
       }
     }
+
+    &[data-value='biela'],
+    &[data-value='bezova'] {
+      &:before {
+        color: $color-text;
+      }
+    }
   }
 }
