@@ -92,16 +92,16 @@
   }
 
   .woodmart-swatch {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
     margin: 7px 15px;
 
     &.swatch-size- {
-      width: 48px;
-      height: 48px;
-      background-color: $color-background-light;
-      border-radius: 15px;
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color: $color-background-light;
 
       &.active-swatch {
         background-color: $color-background;
@@ -115,10 +115,6 @@
 
   div[data-id='pa_farba'] {
     .woodmart-swatch {
-      width: 48px;
-      height: 48px;
-      border-radius: 15px;
-
       &::before {
         position: absolute;
         content: '\f107';
