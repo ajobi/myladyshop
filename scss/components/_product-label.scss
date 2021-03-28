@@ -1,0 +1,10 @@
+@import '../utilities/variables';
+
+.product-label {
+  background-color: $color-white !important;
+  color: $color-text !important;
+  font-size: 10px !important;
+  letter-spacing: 1px !important;
+  padding: 6px 10px !important;
+  font-weight: 600 !important;
+}
