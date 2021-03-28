@@ -19,7 +19,7 @@
     display: none;
 
     @media (min-width: $screen-size-desktop) {
-      display: block;
+      display: flex;
     }
   }
 
