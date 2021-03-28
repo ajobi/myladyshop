@@ -1,5 +1,5 @@
 @import '../utilities/variables';
-@import '../utilities/components/button-white';
+@import '../utilities/components/button-black-cta';
 
 .custom-shop-button,
 .social-banner,
@@ -13,12 +13,5 @@
 }
 
 .custom-shop-button {
-  padding: 15px 45px !important;
-  font-family: $font-family-montserrat;
-  background-color: $color-brand-primary !important;
-  color: $color-white !important;
-  font-weight: 500;
-  font-size: 12px;
-  border-radius: 2px;
-  letter-spacing: 2.4px;
+  @extend .button-black-cta;
 }
