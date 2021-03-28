@@ -1,0 +1,29 @@
+@import '../utilities/variables';
+
+div[data-id='pa_velkost'] {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .woodmart-swatch {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+    margin: 7px 15px;
+
+    &.swatch-size- {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $color-background-light;
+
+      &.active-swatch {
+        background-color: $color-background;
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
