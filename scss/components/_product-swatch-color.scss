@@ -6,11 +6,7 @@ div[data-id='pa_farba'] {
   flex-wrap: wrap;
 
   .woodmart-swatch {
-    width: 48px;
-    height: 48px;
-    border-radius: 15px;
-    margin: 7px 15px;
-    transition: all 100ms;
+    @extend .swatch-base;
 
     &::before {
       position: absolute;
@@ -40,10 +36,6 @@ div[data-id='pa_farba'] {
       &::after {
         opacity: 0.4;
       }
-    }
-
-    &:active {
-      transform: scale(0.92);
     }
 
     &.active-swatch {

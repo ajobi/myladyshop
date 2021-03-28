@@ -1,0 +1,11 @@
+.swatch-base {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  margin: 7px 15px;
+  transition: all 100ms;
+
+  &:active {
+    transform: scale(0.92);
+  }
+}
