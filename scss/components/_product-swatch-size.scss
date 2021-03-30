@@ -13,6 +13,10 @@ div[data-id='pa_velkost'] {
     justify-content: center;
     user-select: none;
     background-color: $color-background-light;
+    font-family: $font-family-montserrat;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    font-weight: 500;
 
     &:hover {
       background-color: $color-background;
