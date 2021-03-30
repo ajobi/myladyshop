@@ -47,12 +47,14 @@
     }
   }
 
-  .price {
-    margin-bottom: 40px;
+  .summary-inner {
+    .price {
+      margin-bottom: 40px;
 
-    .amount {
-      font-size: 18px;
-      letter-spacing: 1.4px;
+      .amount {
+        font-size: 18px;
+        letter-spacing: 1.4px;
+      }
     }
   }
 
