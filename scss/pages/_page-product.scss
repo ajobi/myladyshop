@@ -30,35 +30,20 @@
     }
   }
 
-  // TODO: finish
-  .entry-summary {
-    position: relative;
-    padding-top: 20px;
-
-    @media (min-width: $screen-size-desktop) {
-      padding-top: 0;
-    }
-
-    &:before {
-      content: '';
-      position: absolute;
-      bottom: 100%;
-      left: 0;
-      right: 0;
-      height: 50px;
-      border-radius: 50px 50px 0 0;
-      background-color: $color-white;
-      //box-shadow: 0 10px 120px rgba(0, 0, 0, 0.3);
-    }
-  }
-
   .product_title {
     font-family: $font-family-montserrat;
     color: $color-text;
-    letter-spacing: 0.4px;
     font-size: 18px;
+    letter-spacing: 1.8px;
+    line-height: 1.8;
     font-weight: 500;
     text-transform: uppercase;
+    margin-top: 35px;
+    padding: 0 20px;
+
+    @media (min-width: $screen-size-desktop) {
+      margin-top: 20px;
+    }
   }
 
   .amount {
