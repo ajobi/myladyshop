@@ -2,8 +2,8 @@
 @import '../utilities/components/button-black-cta';
 
 .single-product-page {
-  @media (min-width: $screen-size-desktop) {
-    padding-top: 30px;
+  @media (min-width: $screen-size-tablet) {
+    padding-top: 40px;
   }
 
   .reset_variations,
@@ -55,6 +55,11 @@
     }
   }
 
+  .product-image-summary-inner {
+    // TODO: consider
+    //align-items: center;
+  }
+
   .summary-inner {
     .price {
       margin-bottom: 40px;
@@ -72,6 +77,7 @@
     font-size: 16px;
     letter-spacing: 0.32px;
     font-weight: 300;
+    line-height: 1.7;
   }
 
   li {
@@ -103,7 +109,7 @@
   .variations_form {
     .variations {
       label {
-        font-size: 16px;
+        font-size: 14px;
         font-family: $font-family-montserrat;
         letter-spacing: 1.3px;
         font-weight: 500;
