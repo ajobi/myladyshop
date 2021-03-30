@@ -52,7 +52,7 @@
 
     .amount {
       font-size: 18px;
-      letter-spacing: 1.5px;
+      letter-spacing: 1.4px;
     }
   }
 
@@ -93,6 +93,12 @@
   .variations_form {
     .variations {
       label {
+        font-size: 16px;
+        font-family: $font-family-montserrat;
+        letter-spacing: 1.3px;
+        font-weight: 500;
+        margin-bottom: 10px;
+
         &:after {
           display: none;
         }
