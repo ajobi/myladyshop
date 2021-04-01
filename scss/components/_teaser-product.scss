@@ -16,6 +16,11 @@
     }
   }
 
+  .product-wrapper {
+    box-shadow: none;
+    text-align: center;
+  }
+
   .woodmart-product-cats {
     a {
       color: $color-text;
