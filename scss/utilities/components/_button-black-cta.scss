@@ -3,10 +3,19 @@
 .button-black-cta {
   font-family: $font-family-montserrat;
   background-color: $color-brand-primary !important;
+  border: none !important;
   color: $color-white;
   font-size: 12px;
   letter-spacing: 2.4px;
   font-weight: 500 !important;
   padding: 15px 45px !important;
   border-radius: 2px !important;
+
+  &:not(:hover) {
+    background-color: $color-brand-primary !important;
+  }
+
+  &:hover {
+    color: $color-white;
+  }
 }

@@ -1,3 +1,5 @@
+@import '../utilities/components/button-black-cta';
+
 .shop-title-wrapper {
   .woodmart-back-btn {
     display: none;
@@ -6,4 +8,8 @@
 
 .product-labels {
   max-width: unset;
+}
+
+.woodmart-load-more {
+  @extend .button-black-cta;
 }
