@@ -14,6 +14,15 @@
   display: none;
 }
 
+// active filters bar
+.woodmart-active-filters {
+  margin-top: 0 !important;
+
+  @media (min-width: $screen-size-desktop) {
+    margin-top: -10px !important;
+  }
+}
+
 // desktop filters
 .filters-area {
   &.custom-content {
