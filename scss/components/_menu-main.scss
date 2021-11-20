@@ -16,7 +16,7 @@
   }
 
   .menu-item {
-    &:nth-child(2) {
+    &:nth-child(8) {
       .woodmart-nav-link {
         color: $color-brand-accent;
         font-weight: 600;
@@ -24,7 +24,7 @@
     }
 
     @media (min-width: $screen-size-desktop) {
-      &:nth-child(n + 8) {
+      &:nth-child(n + 9) {
         @include visually-hidden;
       }
     }
