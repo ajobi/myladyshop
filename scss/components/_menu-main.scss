@@ -16,7 +16,7 @@
   }
 
   .menu-item {
-    &:nth-child(8) {
+    &.item-label-secondary {
       .woodmart-nav-link {
         color: $color-brand-accent;
         font-weight: 600;
