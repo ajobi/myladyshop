@@ -125,6 +125,27 @@
   .single_add_to_cart_button {
     @extend .button-black-cta;
     margin-top: 40px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+
+    $url-icon-add-white: url(https://www.myladyshop.sk/wp-content/uploads/2021/12/add-white.svg);
+
+    &::before {
+      content: '';
+      width: 22px;
+      height: 22px;
+      margin-left: 8px;
+      background-image: $url-icon-add-white;
+      background-size:cover;
+      background-repeat: no-repeat;
+      transition: opacity .25s ease;
+    }
+
+    &.loading {
+      &::before {
+        opacity: 0;
+      }
+    }
 
     @media (min-width: $screen-size-desktop) {
       margin-top: 20px;
