@@ -1,11 +1,11 @@
 @import '../utilities/variables';
 
 .main-page-wrapper {
-  padding-top: 70px;
+  padding-top: calc(70px + 25px);
   margin-top: 0;
 
   @media (min-width: $screen-size-desktop) {
-    padding-top: 156px;
+    padding-top: calc(156px + 25px);
   }
 
   .page-title {
