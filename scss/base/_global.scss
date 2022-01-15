@@ -1,5 +1,17 @@
 @import '../utilities/variables';
 
 :root {
-  --wd-primary-color: $color-brand-primary !important;
+  --wd-primary-color: #{$color-brand-primary} !important;
+  --wd-alternative-color: #{$color-brand-accent} !important;
+  --notices-warning-bg: #{$color-brand-accent} !important;
+  --notices-success-bg: #{$color-success} !important;
+  --wd-link-color: #{$color-brand-primary} !important;
+  --wd-link-color-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --wd-widget-title-color: #{$color-brand-primary} !important;
+  --btn-shop-bgcolor: #{$color-brand-primary} !important;
+  --btn-shop-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --btn-accent-bgcolor: #{$color-brand-primary} !important;
+  --btn-accent-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --btn-default-bgcolor: #{$color-brand-primary} !important;
+  --btn-default-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
 }
