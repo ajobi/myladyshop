@@ -79,25 +79,26 @@ $url-icon-shop:     url('https://www.myladyshop.sk/wp-content/uploads/2021/01/sh
     }
   }
 
-  .wd-sidebar-opener {
-    flex-basis: auto;
-    flex-grow: 0;
-    background-color: transparent;
-    color: $color-text;
-    border-radius: 100%;
-    padding: 0;
-    width: 70px;
-    height: 70px;
-    @include animate-filters(animation-filters);
-
-    &:after {
-      position: absolute;
-      bottom: 31px;
-      width: 22px;
-      height: 22px;
-      background-color: $color-text;
-      -webkit-mask: $url-icon-filter;
-      @include animate-filters(animation-filters-icon);
-    }
-  }
+  // TODO: fix
+  //.wd-sidebar-opener {
+  //  flex-basis: auto;
+  //  flex-grow: 0;
+  //  background-color: transparent;
+  //  color: $color-text;
+  //  border-radius: 100%;
+  //  padding: 0;
+  //  width: 70px;
+  //  height: 70px;
+  //  @include animate-filters(animation-filters);
+  //
+  //  &:after {
+  //    position: absolute;
+  //    bottom: 31px;
+  //    width: 22px;
+  //    height: 22px;
+  //    background-color: $color-text;
+  //    -webkit-mask: $url-icon-filter;
+  //    @include animate-filters(animation-filters-icon);
+  //  }
+  //}
 }
