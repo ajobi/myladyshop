@@ -17,6 +17,10 @@
       }
 
       .searchsubmit {
+        &:before {
+          border-left-color: transparent;
+        }
+
         &:hover {
           opacity: $icon-hover-opacity;
         }
