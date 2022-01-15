@@ -1,0 +1,11 @@
+@import '../utilities/variables';
+
+.whb-top-bar {
+  background-color: $color-brand-accent !important;
+
+  .wbh-text-element,
+  .wbh-col-mobile {
+    text-align: center;
+    color: $color-white;
+  }
+}

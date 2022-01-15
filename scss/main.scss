@@ -1,51 +1,50 @@
-@import 'base/typography';
+//@import 'base/typography';
 
-@import 'layout/adminbar';
+//@import 'layout/adminbar';
 @import 'layout/header';
 @import 'layout/header-1';
 @import 'layout/header-2';
 @import 'layout/header-3';
-@import 'layout/footer';
-@import 'layout/prefooter';
-@import 'layout/menu-mobile';
-
-@import 'pages/page';
-@import 'pages/page-product';
-@import 'pages/page-shop';
-@import 'pages/page-landing';
-@import 'pages/page-checkout';
-@import 'pages/page-404';
-//@import 'pages/article';
-
-@import 'components/filters';
-@import 'components/filters-price';
-@import 'components/filters-sidebar';
-@import 'components/teaser-product';
-@import 'components/top-bar';
-@import 'components/search-header';
-@import 'components/search-results';
-@import 'components/menu-main';
-@import 'components/box-social';
-@import 'components/box-newest';
-@import 'components/box-products';
-//@import 'components/box-text';
-@import 'components/products-related';
-@import 'components/product-label';
-@import 'components/product-swatch-size';
-@import 'components/product-swatch-color';
-
-button, .button {
-  border-radius: 2px !important;
-  color: $color-white !important;
-  background-color: $color-brand-primary;
-}
-
-.thumbnails.slick-slider>button:before {
-  color: $color-brand-primary;
-}
-
-.woocommerce-info {
-  a {
-    color: $color-brand-primary;
-  }
-}
+//@import 'layout/footer';
+//@import 'layout/prefooter';
+//@import 'layout/menu-mobile';
+//
+//@import 'pages/page';
+//@import 'pages/page-product';
+//@import 'pages/page-shop';
+//@import 'pages/page-landing';
+//@import 'pages/page-checkout';
+//@import 'pages/page-404';
+////@import 'pages/article';
+//
+//@import 'components/filters';
+//@import 'components/filters-price';
+//@import 'components/filters-sidebar';
+//@import 'components/teaser-product';
+//@import 'components/search-header';
+//@import 'components/search-results';
+//@import 'components/menu-main';
+//@import 'components/box-social';
+//@import 'components/box-newest';
+//@import 'components/box-products';
+////@import 'components/box-text';
+//@import 'components/products-related';
+//@import 'components/product-label';
+//@import 'components/product-swatch-size';
+//@import 'components/product-swatch-color';
+//
+//button, .button {
+//  border-radius: 2px !important;
+//  color: $color-white !important;
+//  background-color: $color-brand-primary;
+//}
+//
+//.thumbnails.slick-slider>button:before {
+//  color: $color-brand-primary;
+//}
+//
+//.woocommerce-info {
+//  a {
+//    color: $color-brand-primary;
+//  }
+//}

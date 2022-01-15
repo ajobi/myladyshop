@@ -2,40 +2,30 @@
 
 .whb-general-header {
   background-color: $color-brand-primary !important;
+  height: 70px !important;
 
-  &-inner {
-    height: 70px !important;
-  }
-
-  .woodmart-logo {
-    img {
-      max-width: 160px;
+  .whb-mobile-right {
+    .wd-custom-icon {
+      &:hover {
+        opacity: $icon-hover-opacity;
+      }
     }
   }
 
-  .mobile-search-icon,
-  .mobile-nav-icon {
-    color: $color-white;
-
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-
-  .my-account-with-username {
+  .wd-header-my-account {
     @media (min-width: $screen-size-desktop) {
-      .wd-tools-icon,
       .wd-tools-text {
         color: $color-white;
         text-transform: capitalize;
         margin-left: 14px;
+        font-weight: 400;
         letter-spacing: 0.3px;
       }
 
       &:hover {
-        .wd-tools-icon,
+        .wd-custom-icon,
         .wd-tools-text {
-          opacity: 0.8;
+          opacity: $icon-hover-opacity;
         }
       }
     }
