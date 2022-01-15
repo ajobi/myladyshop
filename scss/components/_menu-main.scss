@@ -20,6 +20,10 @@
       .woodmart-nav-link {
         color: $color-brand-accent;
         font-weight: 600;
+
+        .menu-label-secondary {
+          display: none;
+        }
       }
     }
 
