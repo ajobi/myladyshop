@@ -1,22 +1,27 @@
 @import '../utilities/variables';
 
 .whb-header-bottom {
-  border-bottom: 1px solid $color-background;
-
-  &-inner {
-    height: 85px;
-  }
+  border-bottom: 1px solid $color-background !important;
+  height: 85px;
 
   .woodmart-shopping-cart {
-    a {
+    .wd-cart-number,
+    .subtotal-divider,
+    .wd-cart-subtotal {
       color: $color-text;
+      font-weight: 400;
+    }
 
-      .amount {
-        color: $color-text;
-      }
+    .wd-custom-icon {
+      margin-bottom: 2px;
+    }
 
-      .woodmart-cart-totals {
-        margin-top: 3px;
+    :hover {
+      .wd-custom-icon,
+      .wd-cart-number,
+      .subtotal-divider,
+      .wd-cart-subtotal {
+        opacity: $icon-hover-opacity;
       }
     }
   }
