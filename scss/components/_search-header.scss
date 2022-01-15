@@ -7,7 +7,7 @@
         height: 40px;
         width: 500px;
         border: none;
-        border-radius: 4px;
+        border-radius: $radius-normal;
         background-color: rgba($color-white, 0.1);
         font-size: 14px;
         letter-spacing: 0.3px;
@@ -32,7 +32,7 @@
           top: calc(100% + 10px);
           left: 0 !important;
           right: 0 !important;
-          border-radius: 4px;
+          border-radius: $radius-normal;
         }
       }
     }
