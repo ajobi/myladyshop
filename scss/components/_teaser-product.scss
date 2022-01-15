@@ -1,6 +1,10 @@
 @import '../utilities/variables';
 
 .product-grid-item {
+  .wd-buttons {
+    display: none;
+  }
+
   .product-title {
     color: $color-text;
     font-size: 10px !important;
@@ -17,7 +21,7 @@
   }
 
   .product-wrapper {
-    box-shadow: none;
+    box-shadow: none !important;
     text-align: center;
   }
 
