@@ -10,8 +10,17 @@
   --wd-widget-title-color: #{$color-brand-primary} !important;
   --btn-shop-bgcolor: #{$color-brand-primary} !important;
   --btn-shop-bgcolor-hover: #{$color-brand-primary-hover} !important;
+  --btn-shop-color: #{$color-white} !important;
+  --btn-shop-color-hover: #{$color-white} !important;
+  --btn-shop-brd-radius: #{$radius-normal}  !important;
   --btn-accent-bgcolor: #{$color-brand-primary} !important;
   --btn-accent-bgcolor-hover: #{$color-brand-primary-hover} !important;
+  --btn-accent-color: #{$color-white} !important;
+  --btn-accent-color-hover: #{$color-white} !important;
+  --btn-accent-brd-radius: #{$radius-normal}  !important;
   --btn-default-bgcolor: #{$color-brand-primary} !important;
   --btn-default-bgcolor-hover: #{$color-brand-primary-hover} !important;
+  --btn-default-color: #{$color-white} !important;
+  --btn-default-color-hover: #{$color-white} !important;
+  --btn-default-brd-radius: #{$radius-normal}  !important;
 }
