@@ -6,12 +6,12 @@
   --notices-warning-bg: #{$color-brand-accent} !important;
   --notices-success-bg: #{$color-success} !important;
   --wd-link-color: #{$color-brand-primary} !important;
-  --wd-link-color-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --wd-link-color-hover: #{$color-brand-primary-hover} !important;
   --wd-widget-title-color: #{$color-brand-primary} !important;
   --btn-shop-bgcolor: #{$color-brand-primary} !important;
-  --btn-shop-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --btn-shop-bgcolor-hover: #{$color-brand-primary-hover} !important;
   --btn-accent-bgcolor: #{$color-brand-primary} !important;
-  --btn-accent-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --btn-accent-bgcolor-hover: #{$color-brand-primary-hover} !important;
   --btn-default-bgcolor: #{$color-brand-primary} !important;
-  --btn-default-bgcolor-hover: #{rgba($color-brand-primary, 0.8)} !important;
+  --btn-default-bgcolor-hover: #{$color-brand-primary-hover} !important;
 }
