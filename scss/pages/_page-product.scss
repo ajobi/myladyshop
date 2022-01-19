@@ -1,5 +1,4 @@
 @import '../utilities/variables';
-@import '../utilities/components/button-black-cta';
 
 .single-product-page {
   @media (min-width: $screen-size-tablet) {
@@ -123,7 +122,6 @@
   }
 
   .single_add_to_cart_button {
-    @extend .button-black-cta;
     margin-top: 40px;
     display: inline-flex;
     flex-direction: row-reverse;

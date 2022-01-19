@@ -1,5 +1,3 @@
-@import '../utilities/components/button-black-cta';
-
 .shop-title-wrapper {
   .wd-back-btn {
     display: none;
@@ -8,8 +6,4 @@
 
 .product-labels {
   max-width: unset;
-}
-
-.wd-load-more {
-  @extend .button-black-cta;
 }

@@ -1,5 +1,4 @@
 @import '../utilities/variables';
-@import '../utilities/components/button-black-cta';
 
 .custom-shop-button,
 .social-banner,
@@ -10,8 +9,4 @@
   @media (min-width: $screen-size-tablet) {
     margin-top: 8vh;
   }
-}
-
-.custom-shop-button {
-  @extend .button-black-cta;
 }
